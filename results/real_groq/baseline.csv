@@ -1,0 +1,12 @@
+row_id,ground_truth,prediction,raw_output,latency_seconds,prompt_tokens,completion_tokens,total_tokens,model,correct,error
+neg/cv000_29416.txt,1,1.0,negative,0.6442895000218414,1018.0,13.0,1031.0,openai/gpt-oss-20b,1.0,
+neg/cv001_19502.txt,1,1.0,negative,0.3692299000103958,418.0,13.0,431.0,openai/gpt-oss-20b,1.0,
+neg/cv002_17424.txt,1,1.0,negative,0.42991549998987466,694.0,13.0,707.0,openai/gpt-oss-20b,1.0,
+neg/cv003_12683.txt,1,1.0,negative,0.5216190000064671,793.0,15.0,808.0,openai/gpt-oss-20b,1.0,
+neg/cv004_12641.txt,1,1.0,negative,0.5270384000032209,1062.0,13.0,1075.0,openai/gpt-oss-20b,1.0,
+pos/cv000_29590.txt,0,1.0,negative,0.5807885999674909,1071.0,28.0,1099.0,openai/gpt-oss-20b,0.0,
+pos/cv001_18431.txt,0,1.0,negative,0.5520350000006147,1017.0,36.0,1053.0,openai/gpt-oss-20b,0.0,
+pos/cv002_15918.txt,0,0.0,positive,0.448121200024616,607.0,13.0,620.0,openai/gpt-oss-20b,1.0,
+pos/cv003_11664.txt,0,0.0,positive,0.5224211000022478,1413.0,13.0,1426.0,openai/gpt-oss-20b,1.0,
+pos/cv004_11636.txt,0,,,,,,,openai/gpt-oss-20b,,"RATE_LIMIT: {""error"":{""message"":""Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m5ad66e5e78a2r0rzvbn7ydk` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7627, Requested 985. Please try again in 4.59s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing"",""type"":""tokens"",""code"":""rate_limit_exceeded""}}
+"

@@ -1,0 +1,21 @@
+row_id,ground_truth,prediction,raw_output,latency_seconds,prompt_tokens,completion_tokens,total_tokens,model,correct,error
+neg/cv000_29416.txt,1,1.0,negative,0.4385807000217028,981.0,2.0,983.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv001_19502.txt,1,1.0,negative,0.48197799996705726,372.0,2.0,374.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv002_17424.txt,1,1.0,negative,0.41670699999667704,649.0,2.0,651.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv003_12683.txt,1,1.0,negative,0.4238545999978669,756.0,2.0,758.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv004_12641.txt,1,1.0,negative,1.0209157000062987,1021.0,2.0,1023.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv005_29357.txt,1,1.0,negative,0.731481300026644,881.0,2.0,883.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv006_17022.txt,1,1.0,negative,0.41260349994990975,816.0,2.0,818.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv007_4992.txt,1,1.0,negative,0.42109449999406934,878.0,2.0,880.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv008_29326.txt,1,1.0,negative,0.3959665999864228,1069.0,2.0,1071.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv009_29417.txt,1,1.0,negative,0.39431429997785017,1185.0,2.0,1187.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv010_29063.txt,1,0.0,positive,0.3946356999804266,1058.0,2.0,1060.0,nvidia/nemotron-3.5-lightning-30b-a3b,0.0,
+neg/cv011_13044.txt,1,1.0,negative,0.6453638999955729,760.0,2.0,762.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv012_29411.txt,1,1.0,negative,0.4078168999985792,745.0,2.0,747.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv013_10494.txt,1,1.0,negative,0.4125377000309527,1296.0,2.0,1298.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv014_15600.txt,1,1.0,negative,0.7381752000073902,777.0,2.0,779.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv015_29356.txt,1,,,,,,,nvidia/nemotron-3.5-lightning-30b-a3b,,429 Client Error: Too Many Requests for url: https://integrate.api.nvidia.com/v1/chat/completions
+neg/cv016_4348.txt,1,,,,,,,nvidia/nemotron-3.5-lightning-30b-a3b,,429 Client Error: Too Many Requests for url: https://integrate.api.nvidia.com/v1/chat/completions
+neg/cv017_23487.txt,1,,,,,,,nvidia/nemotron-3.5-lightning-30b-a3b,,429 Client Error: Too Many Requests for url: https://integrate.api.nvidia.com/v1/chat/completions
+neg/cv018_21672.txt,1,1.0,negative,0.39657700003590435,609.0,2.0,611.0,nvidia/nemotron-3.5-lightning-30b-a3b,1.0,
+neg/cv019_16117.txt,1,,,,,,,nvidia/nemotron-3.5-lightning-30b-a3b,,429 Client Error: Too Many Requests for url: https://integrate.api.nvidia.com/v1/chat/completions

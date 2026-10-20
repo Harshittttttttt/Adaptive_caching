@@ -1,0 +1,1001 @@
+policy,row,instruction,ground_truth,prediction_used,source,similarity,threshold,cache_hit,wrong_cache_hit
+no_cache,0,update purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,,False,False
+no_cache,1,where do I check the early exit fee?,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,2,can you help me recover the key of my profile?,recover_password,recover_password,real_api_prediction,0.0,,False,False
+no_cache,3,I want assistance to check the withdcrawal charge,check_cancellation_fee,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,4,"I have to contact customer assistance, can I get some help?",contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,5,I want assistance doing a purchase,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,6,i want help to close my {{Account Category}} accouny,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,7,I don't know what I have to do to do a pucrhase,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,8,help to leave damn feedback for ru products,review,complaint,real_api_prediction,0.0,,False,False
+no_cache,9,can I see your allowed payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.0,,False,False
+no_cache,10,i do no know how to check how soon can i expect my item,delivery_period,delivery_period,real_api_prediction,0.0,,False,False
+no_cache,11,where do I change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,12,update details on standard account,edit_account,edit_account,real_api_prediction,0.0,,False,False
+no_cache,13,can I unsubscribe from the goddamn newsletter?,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,14,problems with a delivery address correction,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,15,do you have a method to send some feedback for a product ?,review,review,real_api_prediction,0.0,,False,False
+no_cache,16,I do not know how to leave an opinion,review,review,real_api_prediction,0.0,,False,False
+no_cache,17,is there an address to elave feedback about a product,review,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,18,I am calling to leave my feedback for your products,review,review,real_api_prediction,0.0,,False,False
+no_cache,19,i need help canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,20,want assistance locating purchase {{Order Number}},track_order,track_order,real_api_prediction,0.0,,False,False
+no_cache,21,i want assistance to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.0,,False,False
+no_cache,22,what do i need to do to leave some feedback,review,review,real_api_prediction,0.0,,False,False
+no_cache,23,need to submit some feedback for ur company help  me,review,complaint,real_api_prediction,0.0,,False,False
+no_cache,24,what do I need to do to check the payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.0,,False,False
+no_cache,25,I want help canceling the standard account,delete_account,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,26,I do not know what to do to lodge a consumer claim,complaint,complaint,real_api_prediction,0.0,,False,False
+no_cache,27,modify purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,,False,False
+no_cache,28,want assistance to notify of a problem with payment,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,29,give me information about the removal of a premium account,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,30,can uhelp me to delete an item from purchase {{Order Number}},change_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,31,want assistance to make a claim,complaint,get_refund,real_api_prediction,0.0,,False,False
+no_cache,32,what do i need to do to report an issue with online payment,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,33,i needhelp to acquire several items,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,34,"I have to check what delivery methods I can choose, help me",delivery_options,delivery_options,real_api_prediction,0.0,,False,False
+no_cache,35,I do not know how to cancel order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,36,set my new shipping address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,37,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,38,need assistance to take a quick look at the bill #12588,check_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,39,i have lost my bill from {{Person Name}} find it for me,check_invoice,check_invoice,real_api_prediction,0.0,,False,False
+no_cache,40,where do I open a premium account?,create_account,create_account,real_api_prediction,0.0,,False,False
+no_cache,41,I have got to demand fucking reimbursements,get_refund,complaint,real_api_prediction,0.0,,False,False
+no_cache,42,help me call customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,43,i want assistance acquiring some of ur article,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,44,could you help me report an error with signup?,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,45,I cannotdelete some articles from purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,,False,False
+no_cache,46,i lost the bill from {{Person Name}} will ya mail it to m,get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,47,I need help with canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,48,swithcing to pro account,switch_account,switch_account,real_api_prediction,0.0,,False,False
+no_cache,49,how can i contact customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,50,can ya help me see u refund policy,check_refund_policy,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,51,"you are not helpful, can I speak with a person?",contact_human_agent,contact_human_agent,real_api_prediction,0.0,,False,False
+no_cache,52,help me creating a freemium account,create_account,create_account,real_api_prediction,0.0,,False,False
+no_cache,53,i cannot find the cancellation fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,54,correct information on standardaccount,edit_account,edit_account,real_api_prediction,0.0,,False,False
+no_cache,55,i dont know what i need to do to make a claim,complaint,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,56,I do not know what I have to do to download invoice #00108,get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,57,"I want to use the standard profile, how can I do it?",switch_account,set_up_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,58,could you help me see how soon can I expect my package?,delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,59,want help retrieving the pwd of my user account,recover_password,recover_password,real_api_prediction,0.0,,False,False
+no_cache,60,can you help me see the withdrawal charge?,check_cancellation_fee,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,61,I want assistance downloading the invoice from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,62,change information on {{Account Type}} account,edit_account,edit_account,real_api_prediction,0.0,,False,False
+no_cache,63,I want to know about cancelling my newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,64,I want help to see aat what time I can call customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,65,i do not know what to do to edit the delivery address,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,66,"I have got to see when will my package arrive, I need help",delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,67,problem with {{Account Type}} account terminations,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,68,I want help to cancel the company newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,69,I am calling to write a review about a service,review,review,real_api_prediction,0.0,,False,False
+no_cache,70,"I need to cancel my damn newsletter subscription, help me",newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,71,assistance seeing what shipping methods are there,delivery_options,delivery_options,real_api_prediction,0.0,,False,False
+no_cache,72,need to talk to customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,73,what do I have to do to leave a review for a product?,review,review,real_api_prediction,0.0,,False,False
+no_cache,74,i cant add some goddamn products to purchase {{Order Number}},change_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,75,i want assistance seeing when my shipment is gonna arrive,delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,76,can I see what payment methods are available?,check_payment_methods,check_payment_methods,real_api_prediction,0.0,,False,False
+no_cache,77,assistanec to notify of signup problems,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,78,I need assistance unsubscribing to your fucking newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,79,i cant enter a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,80,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,real_api_prediction,0.0,,False,False
+no_cache,81,I have to inform of errors with online payments,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,82,I don't know how I can receive your newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,83,what do I have to do to shop several of your item?,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,84,idont know how i can recover my account access key,recover_password,recover_password,real_api_prediction,0.0,,False,False
+no_cache,85,help me see when my order is going to arrive,delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,86,open {{Account Type}} account,create_account,create_account,real_api_prediction,0.0,,False,False
+no_cache,87,I want help to check the current status of the reimbursement,track_refund,track_refund,real_api_prediction,0.0,,False,False
+no_cache,88,what do I have to do to change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,89,error setting up a shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,90,can ya help me seeing the terminatio penalties,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,91,how do I check at what time I can call customer support?,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,92,"I have to check the early exit charge, I need help",check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,93,i do not know what i need to do to modify the address,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,94,show me invoice #85632,check_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,95,need assistance reporting an error with a signup,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,96,could you help me cancel a gold account?,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,97,using {{Account Category}} account,switch_account,switch_account,real_api_prediction,0.0,,False,False
+no_cache,98,can you show me what hours I can call customer service?,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,99,i have got to get bill #37777 how to do it,get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,100,assistance to inform of problems with signup,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,101,I need help to check purchase {{Order Number}} current status,track_order,track_order,real_api_prediction,0.0,,False,False
+no_cache,102,"I have got to acquire several items, I need help",place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,103,can ya help me contactsomebody,contact_human_agent,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,104,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,real_api_prediction,0.0,,False,False
+no_cache,105,can you help me get a restitution of my money?,get_refund,get_refund,real_api_prediction,0.0,,False,False
+no_cache,106,how do I buy some articles?,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,107,how could I file a claim against your organization?,complaint,complaint,real_api_prediction,0.0,,False,False
+no_cache,108,send me bill from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,109,"I want to enter the delivery address, how to do it?",set_up_shipping_address,set_up_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,110,"my experience with your work was bad, make a complaint",complaint,complaint,real_api_prediction,0.0,,False,False
+no_cache,111,i can no longer afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,112,remove gold account,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,113,help to leave my goddamn feedback for your company,review,complaint,real_api_prediction,0.0,,False,False
+no_cache,114,assistance to unsubscribe from your corporate newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,115,editing information on standard account,edit_account,edit_account,real_api_prediction,0.0,,False,False
+no_cache,116,I need information about the termination of a pro account,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,117,I am trying to sign up to the company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,118,there are problems submitting a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,119,help to see the early exit  penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,120,"I need to unsubscribe from the newsletter, can yyou help me?",newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,121,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,122,where could I submit my shipping address?,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,123,I need help to download the invoice,get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,124,I don't know what to do to contact customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,125,new {{Account Category}} acount for wife,create_account,create_account,real_api_prediction,0.0,,False,False
+no_cache,126,need to track purchase {{Order Number}},track_order,track_order,real_api_prediction,0.0,,False,False
+no_cache,127,want help sending feedback about a service,review,complaint,real_api_prediction,0.0,,False,False
+no_cache,128,I'm trying to cancel purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,129,"I have  to locate my bill #00108, help me",check_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,130,I have troubles correcting my address,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,131,can I place an ordewr from {{Delivery Country}}?,delivery_options,place_order,real_api_prediction,0.0,,False,False
+no_cache,132,i dont know how to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,133,i cant check ur moeny back guarantee,check_refund_policy,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,134,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,135,uhave a free number to get in touch with customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,136,I need help submitting my feedback for your company,review,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,137,I need help to notify of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,138,want assistance to check the cancellation charge,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,139,is it possible to speak with an agent,contact_human_agent,contact_human_agent,real_api_prediction,0.0,,False,False
+no_cache,140,can I see order {{Order Number}} status?,track_order,track_order,real_api_prediction,0.0,,False,False
+no_cache,141,"I do not have a {{Account Type}} account yet, I try to register",create_account,create_account,real_api_prediction,0.0,,False,False
+no_cache,142,I have problems with cancelling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,143,help to inform of troubles with online payments,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,144,I have to notify of a sign-up error,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,145,i have to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.0,,False,False
+no_cache,146,problem with creatingmy {{Account Type}} account,create_account,create_account,real_api_prediction,0.0,,False,False
+no_cache,147,i have got to buy a product can i get some help,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,148,"I have got to submit a new shipping address, I need help",set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,149,I do not know what to do to speak with customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,150,I cannot check the current status of the rebate,track_refund,track_refund,real_api_prediction,0.0,,False,False
+no_cache,151,I don't know what I need to do to download invoice #37777,get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,152,help to check in what situations can I ask to be refunded,check_refund_policy,check_refund_policy,real_api_prediction,0.0,,False,False
+no_cache,153,cancel the subscription to ur company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.0,,False,False
+no_cache,154,i have got to set the new deliver address up how do i do it,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,155,I want assistance checking the early termination fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,156,wanna acquire some of ur article,place_order,place_order,real_api_prediction,0.0,,False,False
+no_cache,157,can you help me to locate the invoice from {{Person Name}}?,check_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,158,"I have got to talk to customer service, how can I do it?",contact_customer_service,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,159,cancelin premium account,delete_account,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,160,i want assistance reporting an issue with a registration,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,161,help me see how soon can I expect the package,delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,162,I want help seeing order {{Order Number}} current status,track_order,track_order,real_api_prediction,0.0,,False,False
+no_cache,163,want assistance checking the early termination penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,,False,False
+no_cache,164,i want help submitting a different delivery address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,165,trouble entering my new shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,166,I call to send some  feedback about a service,review,complaint,real_api_prediction,0.0,,False,False
+no_cache,167,I don't know what I have to do to chat with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.0,,False,False
+no_cache,168,help to check how soon can I expect my shipment,delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,169,how can I reset my profile pass?,recover_password,recover_password,real_api_prediction,0.0,,False,False
+no_cache,170,will you transfer to me somebody?,contact_human_agent,contact_human_agent,real_api_prediction,0.0,,False,False
+no_cache,171,can ya help me inform of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,172,what do I have to do to close the {{Account Type}} account?,delete_account,delete_account,real_api_prediction,0.0,,False,False
+no_cache,173,need assistance talking with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.0,,False,False
+no_cache,174,want assistance leavingmy feedback for a service,review,review,real_api_prediction,0.0,,False,False
+no_cache,175,can you help me to use the pro profile?,switch_account,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,176,error setting up my secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,177,I try to leave a review about your company,review,review,real_api_prediction,0.0,,False,False
+no_cache,178,I'm extremely unsatisfied with ur wor i wanna lodge a claim,complaint,complaint,real_api_prediction,0.0,,False,False
+no_cache,179,i need help seeingwhen will my package arrive,delivery_period,track_order,real_api_prediction,0.0,,False,False
+no_cache,180,tell me more abou editing my address,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,181,can I use the {{Account Type}} profile?,switch_account,contact_customer_service,real_api_prediction,0.0,,False,False
+no_cache,182,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,real_api_prediction,0.0,,False,False
+no_cache,183,I have an issue setting the new delivery address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,184,i need assistance to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.0,,False,False
+no_cache,185,check bill from {{Person Name}},check_invoice,check_invoice,real_api_prediction,0.0,,False,False
+no_cache,186,need help editing m address,change_shipping_address,change_shipping_address,real_api_prediction,0.0,,False,False
+no_cache,187,i need help canceling order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.0,,False,False
+no_cache,188,I'm looking for information about thbe forgotten access key,recover_password,recover_password,real_api_prediction,0.0,,False,False
+no_cache,189,I have got to notify of issues wit payments,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+no_cache,190,I am trying to recover my user profile PIN,recover_password,recover_password,real_api_prediction,0.0,,False,False
+no_cache,191,where can i check themethods for shipment,delivery_options,delivery_options,real_api_prediction,0.0,,False,False
+no_cache,192,I can't speak iwth an operator,contact_human_agent,contact_human_agent,real_api_prediction,0.0,,False,False
+no_cache,193,see bill from {{Person Name}},check_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,194,i made an mistake could i modify order {{Order Number}},change_order,change_order,real_api_prediction,0.0,,False,False
+no_cache,195,is there a way to send an opinion for ur products,review,review,real_api_prediction,0.0,,False,False
+no_cache,196,need to see how soon can i expect the order could uhelp me,delivery_period,delivery_period,real_api_prediction,0.0,,False,False
+no_cache,197,I need assistance to take a quick look at bill #85632,check_invoice,check_invoice,real_api_prediction,0.0,,False,False
+no_cache,198,I need help downloading the bills from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.0,,False,False
+no_cache,199,wanna report troubles with onlpine payment,payment_issue,payment_issue,real_api_prediction,0.0,,False,False
+exact_cache,0,update purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,1.0,False,False
+exact_cache,1,where do I check the early exit fee?,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,1.0,False,False
+exact_cache,2,can you help me recover the key of my profile?,recover_password,recover_password,real_api_prediction,0.02082,1.0,False,False
+exact_cache,3,I want assistance to check the withdcrawal charge,check_cancellation_fee,check_refund_policy,real_api_prediction,0.14987,1.0,False,False
+exact_cache,4,"I have to contact customer assistance, can I get some help?",contact_customer_service,contact_customer_service,real_api_prediction,0.04581,1.0,False,False
+exact_cache,5,I want assistance doing a purchase,place_order,place_order,real_api_prediction,0.1779,1.0,False,False
+exact_cache,6,i want help to close my {{Account Category}} accouny,delete_account,delete_account,real_api_prediction,0.04717,1.0,False,False
+exact_cache,7,I don't know what I have to do to do a pucrhase,place_order,place_order,real_api_prediction,0.09331,1.0,False,False
+exact_cache,8,help to leave damn feedback for ru products,review,complaint,real_api_prediction,0.07267,1.0,False,False
+exact_cache,9,can I see your allowed payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.02534,1.0,False,False
+exact_cache,10,i do no know how to check how soon can i expect my item,delivery_period,delivery_period,real_api_prediction,0.09594,1.0,False,False
+exact_cache,11,where do I change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.21797,1.0,False,False
+exact_cache,12,update details on standard account,edit_account,edit_account,real_api_prediction,0.16786,1.0,False,False
+exact_cache,13,can I unsubscribe from the goddamn newsletter?,newsletter_subscription,newsletter_subscription,real_api_prediction,0.04602,1.0,False,False
+exact_cache,14,problems with a delivery address correction,change_shipping_address,change_shipping_address,real_api_prediction,0.0512,1.0,False,False
+exact_cache,15,do you have a method to send some feedback for a product ?,review,review,real_api_prediction,0.13841,1.0,False,False
+exact_cache,16,I do not know how to leave an opinion,review,review,real_api_prediction,0.23669,1.0,False,False
+exact_cache,17,is there an address to elave feedback about a product,review,contact_customer_service,real_api_prediction,0.09658,1.0,False,False
+exact_cache,18,I am calling to leave my feedback for your products,review,review,real_api_prediction,0.32602,1.0,False,False
+exact_cache,19,i need help canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.42267,1.0,False,False
+exact_cache,20,want assistance locating purchase {{Order Number}},track_order,track_order,real_api_prediction,0.39041,1.0,False,False
+exact_cache,21,i want assistance to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.22575,1.0,False,False
+exact_cache,22,what do i need to do to leave some feedback,review,review,real_api_prediction,0.28062,1.0,False,False
+exact_cache,23,need to submit some feedback for ur company help  me,review,complaint,real_api_prediction,0.26959,1.0,False,False
+exact_cache,24,what do I need to do to check the payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.49811,1.0,False,False
+exact_cache,25,I want help canceling the standard account,delete_account,cancel_order,real_api_prediction,0.29513,1.0,False,False
+exact_cache,26,I do not know what to do to lodge a consumer claim,complaint,complaint,real_api_prediction,0.33026,1.0,False,False
+exact_cache,27,modify purchase {{Order Number}},change_order,change_order,real_api_prediction,0.49677,1.0,False,False
+exact_cache,28,want assistance to notify of a problem with payment,payment_issue,payment_issue,real_api_prediction,0.25053,1.0,False,False
+exact_cache,29,give me information about the removal of a premium account,delete_account,delete_account,real_api_prediction,0.06605,1.0,False,False
+exact_cache,30,can uhelp me to delete an item from purchase {{Order Number}},change_order,cancel_order,real_api_prediction,0.26056,1.0,False,False
+exact_cache,31,want assistance to make a claim,complaint,get_refund,real_api_prediction,0.27067,1.0,False,False
+exact_cache,32,what do i need to do to report an issue with online payment,payment_issue,payment_issue,real_api_prediction,0.43577,1.0,False,False
+exact_cache,33,i needhelp to acquire several items,place_order,place_order,real_api_prediction,0.0212,1.0,False,False
+exact_cache,34,"I have to check what delivery methods I can choose, help me",delivery_options,delivery_options,real_api_prediction,0.19451,1.0,False,False
+exact_cache,35,I do not know how to cancel order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.46967,1.0,False,False
+exact_cache,36,set my new shipping address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.22684,1.0,False,False
+exact_cache,37,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,get_invoice,real_api_prediction,0.10898,1.0,False,False
+exact_cache,38,need assistance to take a quick look at the bill #12588,check_invoice,get_invoice,real_api_prediction,0.11018,1.0,False,False
+exact_cache,39,i have lost my bill from {{Person Name}} find it for me,check_invoice,check_invoice,real_api_prediction,0.2168,1.0,False,False
+exact_cache,40,where do I open a premium account?,create_account,create_account,real_api_prediction,0.25187,1.0,False,False
+exact_cache,41,I have got to demand fucking reimbursements,get_refund,complaint,real_api_prediction,0.05312,1.0,False,False
+exact_cache,42,help me call customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.1066,1.0,False,False
+exact_cache,43,i want assistance acquiring some of ur article,place_order,place_order,real_api_prediction,0.1584,1.0,False,False
+exact_cache,44,could you help me report an error with signup?,registration_problems,registration_problems,real_api_prediction,0.20377,1.0,False,False
+exact_cache,45,I cannotdelete some articles from purchase {{Order Number}},change_order,change_order,real_api_prediction,0.33085,1.0,False,False
+exact_cache,46,i lost the bill from {{Person Name}} will ya mail it to m,get_invoice,get_invoice,real_api_prediction,0.35003,1.0,False,False
+exact_cache,47,I need help with canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.73661,1.0,False,False
+exact_cache,48,swithcing to pro account,switch_account,switch_account,real_api_prediction,0.05936,1.0,False,False
+exact_cache,49,how can i contact customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.30167,1.0,False,False
+exact_cache,50,can ya help me see u refund policy,check_refund_policy,check_refund_policy,real_api_prediction,0.1248,1.0,False,False
+exact_cache,51,"you are not helpful, can I speak with a person?",contact_human_agent,contact_human_agent,real_api_prediction,0.07037,1.0,False,False
+exact_cache,52,help me creating a freemium account,create_account,create_account,real_api_prediction,0.14065,1.0,False,False
+exact_cache,53,i cannot find the cancellation fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.08487,1.0,False,False
+exact_cache,54,correct information on standardaccount,edit_account,edit_account,real_api_prediction,0.10588,1.0,False,False
+exact_cache,55,i dont know what i need to do to make a claim,complaint,check_refund_policy,real_api_prediction,0.51779,1.0,False,False
+exact_cache,56,I do not know what I have to do to download invoice #00108,get_invoice,get_invoice,real_api_prediction,0.48298,1.0,False,False
+exact_cache,57,"I want to use the standard profile, how can I do it?",switch_account,set_up_shipping_address,real_api_prediction,0.24286,1.0,False,False
+exact_cache,58,could you help me see how soon can I expect my package?,delivery_period,track_order,real_api_prediction,0.40587,1.0,False,False
+exact_cache,59,want help retrieving the pwd of my user account,recover_password,recover_password,real_api_prediction,0.17307,1.0,False,False
+exact_cache,60,can you help me see the withdrawal charge?,check_cancellation_fee,check_refund_policy,real_api_prediction,0.31373,1.0,False,False
+exact_cache,61,I want assistance downloading the invoice from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.42084,1.0,False,False
+exact_cache,62,change information on {{Account Type}} account,edit_account,edit_account,real_api_prediction,0.30766,1.0,False,False
+exact_cache,63,I want to know about cancelling my newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.12736,1.0,False,False
+exact_cache,64,I want help to see aat what time I can call customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.25432,1.0,False,False
+exact_cache,65,i do not know what to do to edit the delivery address,change_shipping_address,change_shipping_address,real_api_prediction,0.48199,1.0,False,False
+exact_cache,66,"I have got to see when will my package arrive, I need help",delivery_period,track_order,real_api_prediction,0.19762,1.0,False,False
+exact_cache,67,problem with {{Account Type}} account terminations,delete_account,delete_account,real_api_prediction,0.35472,1.0,False,False
+exact_cache,68,I want help to cancel the company newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.2599,1.0,False,False
+exact_cache,69,I am calling to write a review about a service,review,review,real_api_prediction,0.32689,1.0,False,False
+exact_cache,70,"I need to cancel my damn newsletter subscription, help me",newsletter_subscription,newsletter_subscription,real_api_prediction,0.39596,1.0,False,False
+exact_cache,71,assistance seeing what shipping methods are there,delivery_options,delivery_options,real_api_prediction,0.09825,1.0,False,False
+exact_cache,72,need to talk to customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.3167,1.0,False,False
+exact_cache,73,what do I have to do to leave a review for a product?,review,review,real_api_prediction,0.42861,1.0,False,False
+exact_cache,74,i cant add some goddamn products to purchase {{Order Number}},change_order,place_order,real_api_prediction,0.27892,1.0,False,False
+exact_cache,75,i want assistance seeing when my shipment is gonna arrive,delivery_period,track_order,real_api_prediction,0.17028,1.0,False,False
+exact_cache,76,can I see what payment methods are available?,check_payment_methods,check_payment_methods,real_api_prediction,0.37607,1.0,False,False
+exact_cache,77,assistanec to notify of signup problems,registration_problems,registration_problems,real_api_prediction,0.28126,1.0,False,False
+exact_cache,78,I need assistance unsubscribing to your fucking newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.11431,1.0,False,False
+exact_cache,79,i cant enter a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.1964,1.0,False,False
+exact_cache,80,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,real_api_prediction,0.09255,1.0,False,False
+exact_cache,81,I have to inform of errors with online payments,payment_issue,payment_issue,real_api_prediction,0.17935,1.0,False,False
+exact_cache,82,I don't know how I can receive your newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.20019,1.0,False,False
+exact_cache,83,what do I have to do to shop several of your item?,place_order,place_order,real_api_prediction,0.36343,1.0,False,False
+exact_cache,84,idont know how i can recover my account access key,recover_password,recover_password,real_api_prediction,0.21555,1.0,False,False
+exact_cache,85,help me see when my order is going to arrive,delivery_period,track_order,real_api_prediction,0.26561,1.0,False,False
+exact_cache,86,open {{Account Type}} account,create_account,create_account,real_api_prediction,0.45756,1.0,False,False
+exact_cache,87,I want help to check the current status of the reimbursement,track_refund,track_refund,real_api_prediction,0.25383,1.0,False,False
+exact_cache,88,what do I have to do to change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.57077,1.0,False,False
+exact_cache,89,error setting up a shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.28565,1.0,False,False
+exact_cache,90,can ya help me seeing the terminatio penalties,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.34564,1.0,False,False
+exact_cache,91,how do I check at what time I can call customer support?,contact_customer_service,contact_customer_service,real_api_prediction,0.56526,1.0,False,False
+exact_cache,92,"I have to check the early exit charge, I need help",check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.46283,1.0,False,False
+exact_cache,93,i do not know what i need to do to modify the address,change_shipping_address,change_shipping_address,real_api_prediction,0.47704,1.0,False,False
+exact_cache,94,show me invoice #85632,check_invoice,get_invoice,real_api_prediction,0.08406,1.0,False,False
+exact_cache,95,need assistance reporting an error with a signup,registration_problems,registration_problems,real_api_prediction,0.49509,1.0,False,False
+exact_cache,96,could you help me cancel a gold account?,delete_account,delete_account,real_api_prediction,0.34605,1.0,False,False
+exact_cache,97,using {{Account Category}} account,switch_account,switch_account,real_api_prediction,0.2924,1.0,False,False
+exact_cache,98,can you show me what hours I can call customer service?,contact_customer_service,contact_customer_service,real_api_prediction,0.42221,1.0,False,False
+exact_cache,99,i have got to get bill #37777 how to do it,get_invoice,get_invoice,real_api_prediction,0.21602,1.0,False,False
+exact_cache,100,assistance to inform of problems with signup,registration_problems,registration_problems,real_api_prediction,0.3366,1.0,False,False
+exact_cache,101,I need help to check purchase {{Order Number}} current status,track_order,track_order,real_api_prediction,0.41657,1.0,False,False
+exact_cache,102,"I have got to acquire several items, I need help",place_order,place_order,real_api_prediction,0.64803,1.0,False,False
+exact_cache,103,can ya help me contactsomebody,contact_human_agent,contact_customer_service,real_api_prediction,0.48583,1.0,False,False
+exact_cache,104,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,real_api_prediction,0.2165,1.0,False,False
+exact_cache,105,can you help me get a restitution of my money?,get_refund,get_refund,real_api_prediction,0.36081,1.0,False,False
+exact_cache,106,how do I buy some articles?,place_order,place_order,real_api_prediction,0.30094,1.0,False,False
+exact_cache,107,how could I file a claim against your organization?,complaint,complaint,real_api_prediction,0.09023,1.0,False,False
+exact_cache,108,send me bill from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.40186,1.0,False,False
+exact_cache,109,"I want to enter the delivery address, how to do it?",set_up_shipping_address,set_up_shipping_address,real_api_prediction,0.34345,1.0,False,False
+exact_cache,110,"my experience with your work was bad, make a complaint",complaint,complaint,real_api_prediction,0.09249,1.0,False,False
+exact_cache,111,i can no longer afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.32389,1.0,False,False
+exact_cache,112,remove gold account,delete_account,delete_account,real_api_prediction,0.36442,1.0,False,False
+exact_cache,113,help to leave my goddamn feedback for your company,review,complaint,real_api_prediction,0.4883,1.0,False,False
+exact_cache,114,assistance to unsubscribe from your corporate newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.30206,1.0,False,False
+exact_cache,115,editing information on standard account,edit_account,edit_account,real_api_prediction,0.48892,1.0,False,False
+exact_cache,116,I need information about the termination of a pro account,delete_account,delete_account,real_api_prediction,0.31746,1.0,False,False
+exact_cache,117,I am trying to sign up to the company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.31652,1.0,False,False
+exact_cache,118,there are problems submitting a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.35711,1.0,False,False
+exact_cache,119,help to see the early exit  penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.41039,1.0,False,False
+exact_cache,120,"I need to unsubscribe from the newsletter, can yyou help me?",newsletter_subscription,newsletter_subscription,real_api_prediction,0.40671,1.0,False,False
+exact_cache,121,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,real_api_prediction,0.232,1.0,False,False
+exact_cache,122,where could I submit my shipping address?,set_up_shipping_address,change_shipping_address,real_api_prediction,0.4216,1.0,False,False
+exact_cache,123,I need help to download the invoice,get_invoice,get_invoice,real_api_prediction,0.29709,1.0,False,False
+exact_cache,124,I don't know what to do to contact customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.4956,1.0,False,False
+exact_cache,125,new {{Account Category}} acount for wife,create_account,create_account,real_api_prediction,0.29735,1.0,False,False
+exact_cache,126,need to track purchase {{Order Number}},track_order,track_order,real_api_prediction,0.40329,1.0,False,False
+exact_cache,127,want help sending feedback about a service,review,complaint,real_api_prediction,0.2186,1.0,False,False
+exact_cache,128,I'm trying to cancel purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.39681,1.0,False,False
+exact_cache,129,"I have  to locate my bill #00108, help me",check_invoice,get_invoice,real_api_prediction,0.19565,1.0,False,False
+exact_cache,130,I have troubles correcting my address,change_shipping_address,change_shipping_address,real_api_prediction,0.11224,1.0,False,False
+exact_cache,131,can I place an ordewr from {{Delivery Country}}?,delivery_options,place_order,real_api_prediction,0.08519,1.0,False,False
+exact_cache,132,i dont know how to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.33691,1.0,False,False
+exact_cache,133,i cant check ur moeny back guarantee,check_refund_policy,check_refund_policy,real_api_prediction,0.20772,1.0,False,False
+exact_cache,134,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.52149,1.0,False,False
+exact_cache,135,uhave a free number to get in touch with customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.18713,1.0,False,False
+exact_cache,136,I need help submitting my feedback for your company,review,contact_customer_service,real_api_prediction,0.48645,1.0,False,False
+exact_cache,137,I need help to notify of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.49178,1.0,False,False
+exact_cache,138,want assistance to check the cancellation charge,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.57252,1.0,False,False
+exact_cache,139,is it possible to speak with an agent,contact_human_agent,contact_human_agent,real_api_prediction,0.16054,1.0,False,False
+exact_cache,140,can I see order {{Order Number}} status?,track_order,track_order,real_api_prediction,0.30265,1.0,False,False
+exact_cache,141,"I do not have a {{Account Type}} account yet, I try to register",create_account,create_account,real_api_prediction,0.34386,1.0,False,False
+exact_cache,142,I have problems with cancelling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.34352,1.0,False,False
+exact_cache,143,help to inform of troubles with online payments,payment_issue,payment_issue,real_api_prediction,0.63646,1.0,False,False
+exact_cache,144,I have to notify of a sign-up error,registration_problems,registration_problems,real_api_prediction,0.27891,1.0,False,False
+exact_cache,145,i have to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.87228,1.0,False,False
+exact_cache,146,problem with creatingmy {{Account Type}} account,create_account,create_account,real_api_prediction,0.59149,1.0,False,False
+exact_cache,147,i have got to buy a product can i get some help,place_order,place_order,real_api_prediction,0.43673,1.0,False,False
+exact_cache,148,"I have got to submit a new shipping address, I need help",set_up_shipping_address,change_shipping_address,real_api_prediction,0.33525,1.0,False,False
+exact_cache,149,I do not know what to do to speak with customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.4915,1.0,False,False
+exact_cache,150,I cannot check the current status of the rebate,track_refund,track_refund,real_api_prediction,0.63425,1.0,False,False
+exact_cache,151,I don't know what I need to do to download invoice #37777,get_invoice,get_invoice,real_api_prediction,0.5352,1.0,False,False
+exact_cache,152,help to check in what situations can I ask to be refunded,check_refund_policy,check_refund_policy,real_api_prediction,0.14591,1.0,False,False
+exact_cache,153,cancel the subscription to ur company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.51377,1.0,False,False
+exact_cache,154,i have got to set the new deliver address up how do i do it,set_up_shipping_address,change_shipping_address,real_api_prediction,0.29937,1.0,False,False
+exact_cache,155,I want assistance checking the early termination fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.18799,1.0,False,False
+exact_cache,156,wanna acquire some of ur article,place_order,place_order,real_api_prediction,0.55885,1.0,False,False
+exact_cache,157,can you help me to locate the invoice from {{Person Name}}?,check_invoice,get_invoice,real_api_prediction,0.49329,1.0,False,False
+exact_cache,158,"I have got to talk to customer service, how can I do it?",contact_customer_service,contact_customer_service,real_api_prediction,0.48969,1.0,False,False
+exact_cache,159,cancelin premium account,delete_account,cancel_order,real_api_prediction,0.37426,1.0,False,False
+exact_cache,160,i want assistance reporting an issue with a registration,registration_problems,registration_problems,real_api_prediction,0.42876,1.0,False,False
+exact_cache,161,help me see how soon can I expect the package,delivery_period,track_order,real_api_prediction,0.69861,1.0,False,False
+exact_cache,162,I want help seeing order {{Order Number}} current status,track_order,track_order,real_api_prediction,0.51685,1.0,False,False
+exact_cache,163,want assistance checking the early termination penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.78208,1.0,False,False
+exact_cache,164,i want help submitting a different delivery address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.23075,1.0,False,False
+exact_cache,165,trouble entering my new shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.51984,1.0,False,False
+exact_cache,166,I call to send some  feedback about a service,review,complaint,real_api_prediction,0.39983,1.0,False,False
+exact_cache,167,I don't know what I have to do to chat with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.57394,1.0,False,False
+exact_cache,168,help to check how soon can I expect my shipment,delivery_period,track_order,real_api_prediction,0.62034,1.0,False,False
+exact_cache,169,how can I reset my profile pass?,recover_password,recover_password,real_api_prediction,0.20717,1.0,False,False
+exact_cache,170,will you transfer to me somebody?,contact_human_agent,contact_human_agent,real_api_prediction,0.08717,1.0,False,False
+exact_cache,171,can ya help me inform of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.53299,1.0,False,False
+exact_cache,172,what do I have to do to close the {{Account Type}} account?,delete_account,delete_account,real_api_prediction,0.41176,1.0,False,False
+exact_cache,173,need assistance talking with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.35154,1.0,False,False
+exact_cache,174,want assistance leavingmy feedback for a service,review,review,real_api_prediction,0.18694,1.0,False,False
+exact_cache,175,can you help me to use the pro profile?,switch_account,contact_customer_service,real_api_prediction,0.3588,1.0,False,False
+exact_cache,176,error setting up my secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.68753,1.0,False,False
+exact_cache,177,I try to leave a review about your company,review,review,real_api_prediction,0.32817,1.0,False,False
+exact_cache,178,I'm extremely unsatisfied with ur wor i wanna lodge a claim,complaint,complaint,real_api_prediction,0.12739,1.0,False,False
+exact_cache,179,i need help seeingwhen will my package arrive,delivery_period,track_order,real_api_prediction,0.54915,1.0,False,False
+exact_cache,180,tell me more abou editing my address,change_shipping_address,change_shipping_address,real_api_prediction,0.17532,1.0,False,False
+exact_cache,181,can I use the {{Account Type}} profile?,switch_account,contact_customer_service,real_api_prediction,0.32276,1.0,False,False
+exact_cache,182,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,real_api_prediction,0.4864,1.0,False,False
+exact_cache,183,I have an issue setting the new delivery address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.26432,1.0,False,False
+exact_cache,184,i need assistance to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.67544,1.0,False,False
+exact_cache,185,check bill from {{Person Name}},check_invoice,check_invoice,real_api_prediction,0.62793,1.0,False,False
+exact_cache,186,need help editing m address,change_shipping_address,change_shipping_address,real_api_prediction,0.19041,1.0,False,False
+exact_cache,187,i need help canceling order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.6705,1.0,False,False
+exact_cache,188,I'm looking for information about thbe forgotten access key,recover_password,recover_password,real_api_prediction,0.20379,1.0,False,False
+exact_cache,189,I have got to notify of issues wit payments,payment_issue,payment_issue,real_api_prediction,0.27457,1.0,False,False
+exact_cache,190,I am trying to recover my user profile PIN,recover_password,recover_password,real_api_prediction,0.2838,1.0,False,False
+exact_cache,191,where can i check themethods for shipment,delivery_options,delivery_options,real_api_prediction,0.15811,1.0,False,False
+exact_cache,192,I can't speak iwth an operator,contact_human_agent,contact_human_agent,real_api_prediction,0.20027,1.0,False,False
+exact_cache,193,see bill from {{Person Name}},check_invoice,get_invoice,real_api_prediction,0.71923,1.0,False,False
+exact_cache,194,i made an mistake could i modify order {{Order Number}},change_order,change_order,real_api_prediction,0.31662,1.0,False,False
+exact_cache,195,is there a way to send an opinion for ur products,review,review,real_api_prediction,0.20445,1.0,False,False
+exact_cache,196,need to see how soon can i expect the order could uhelp me,delivery_period,delivery_period,real_api_prediction,0.57219,1.0,False,False
+exact_cache,197,I need assistance to take a quick look at bill #85632,check_invoice,check_invoice,real_api_prediction,0.72162,1.0,False,False
+exact_cache,198,I need help downloading the bills from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.49435,1.0,False,False
+exact_cache,199,wanna report troubles with onlpine payment,payment_issue,payment_issue,real_api_prediction,0.21205,1.0,False,False
+static_070,0,update purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,0.7,False,False
+static_070,1,where do I check the early exit fee?,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,0.7,False,False
+static_070,2,can you help me recover the key of my profile?,recover_password,recover_password,real_api_prediction,0.02082,0.7,False,False
+static_070,3,I want assistance to check the withdcrawal charge,check_cancellation_fee,check_refund_policy,real_api_prediction,0.14987,0.7,False,False
+static_070,4,"I have to contact customer assistance, can I get some help?",contact_customer_service,contact_customer_service,real_api_prediction,0.04581,0.7,False,False
+static_070,5,I want assistance doing a purchase,place_order,place_order,real_api_prediction,0.1779,0.7,False,False
+static_070,6,i want help to close my {{Account Category}} accouny,delete_account,delete_account,real_api_prediction,0.04717,0.7,False,False
+static_070,7,I don't know what I have to do to do a pucrhase,place_order,place_order,real_api_prediction,0.09331,0.7,False,False
+static_070,8,help to leave damn feedback for ru products,review,complaint,real_api_prediction,0.07267,0.7,False,False
+static_070,9,can I see your allowed payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.02534,0.7,False,False
+static_070,10,i do no know how to check how soon can i expect my item,delivery_period,delivery_period,real_api_prediction,0.09594,0.7,False,False
+static_070,11,where do I change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.21797,0.7,False,False
+static_070,12,update details on standard account,edit_account,edit_account,real_api_prediction,0.16786,0.7,False,False
+static_070,13,can I unsubscribe from the goddamn newsletter?,newsletter_subscription,newsletter_subscription,real_api_prediction,0.04602,0.7,False,False
+static_070,14,problems with a delivery address correction,change_shipping_address,change_shipping_address,real_api_prediction,0.0512,0.7,False,False
+static_070,15,do you have a method to send some feedback for a product ?,review,review,real_api_prediction,0.13841,0.7,False,False
+static_070,16,I do not know how to leave an opinion,review,review,real_api_prediction,0.23669,0.7,False,False
+static_070,17,is there an address to elave feedback about a product,review,contact_customer_service,real_api_prediction,0.09658,0.7,False,False
+static_070,18,I am calling to leave my feedback for your products,review,review,real_api_prediction,0.32602,0.7,False,False
+static_070,19,i need help canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.42267,0.7,False,False
+static_070,20,want assistance locating purchase {{Order Number}},track_order,track_order,real_api_prediction,0.39041,0.7,False,False
+static_070,21,i want assistance to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.22575,0.7,False,False
+static_070,22,what do i need to do to leave some feedback,review,review,real_api_prediction,0.28062,0.7,False,False
+static_070,23,need to submit some feedback for ur company help  me,review,complaint,real_api_prediction,0.26959,0.7,False,False
+static_070,24,what do I need to do to check the payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.49811,0.7,False,False
+static_070,25,I want help canceling the standard account,delete_account,cancel_order,real_api_prediction,0.29513,0.7,False,False
+static_070,26,I do not know what to do to lodge a consumer claim,complaint,complaint,real_api_prediction,0.33026,0.7,False,False
+static_070,27,modify purchase {{Order Number}},change_order,change_order,real_api_prediction,0.49677,0.7,False,False
+static_070,28,want assistance to notify of a problem with payment,payment_issue,payment_issue,real_api_prediction,0.25053,0.7,False,False
+static_070,29,give me information about the removal of a premium account,delete_account,delete_account,real_api_prediction,0.06605,0.7,False,False
+static_070,30,can uhelp me to delete an item from purchase {{Order Number}},change_order,cancel_order,real_api_prediction,0.26056,0.7,False,False
+static_070,31,want assistance to make a claim,complaint,get_refund,real_api_prediction,0.27067,0.7,False,False
+static_070,32,what do i need to do to report an issue with online payment,payment_issue,payment_issue,real_api_prediction,0.43577,0.7,False,False
+static_070,33,i needhelp to acquire several items,place_order,place_order,real_api_prediction,0.0212,0.7,False,False
+static_070,34,"I have to check what delivery methods I can choose, help me",delivery_options,delivery_options,real_api_prediction,0.19451,0.7,False,False
+static_070,35,I do not know how to cancel order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.46967,0.7,False,False
+static_070,36,set my new shipping address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.22684,0.7,False,False
+static_070,37,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,get_invoice,real_api_prediction,0.10898,0.7,False,False
+static_070,38,need assistance to take a quick look at the bill #12588,check_invoice,get_invoice,real_api_prediction,0.11018,0.7,False,False
+static_070,39,i have lost my bill from {{Person Name}} find it for me,check_invoice,check_invoice,real_api_prediction,0.2168,0.7,False,False
+static_070,40,where do I open a premium account?,create_account,create_account,real_api_prediction,0.25187,0.7,False,False
+static_070,41,I have got to demand fucking reimbursements,get_refund,complaint,real_api_prediction,0.05312,0.7,False,False
+static_070,42,help me call customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.1066,0.7,False,False
+static_070,43,i want assistance acquiring some of ur article,place_order,place_order,real_api_prediction,0.1584,0.7,False,False
+static_070,44,could you help me report an error with signup?,registration_problems,registration_problems,real_api_prediction,0.20377,0.7,False,False
+static_070,45,I cannotdelete some articles from purchase {{Order Number}},change_order,change_order,real_api_prediction,0.33085,0.7,False,False
+static_070,46,i lost the bill from {{Person Name}} will ya mail it to m,get_invoice,get_invoice,real_api_prediction,0.35003,0.7,False,False
+static_070,47,I need help with canceling purchase {{Order Number}},cancel_order,cancel_order,cache,0.73661,0.7,True,False
+static_070,48,swithcing to pro account,switch_account,switch_account,real_api_prediction,0.05936,0.7,False,False
+static_070,49,how can i contact customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.30167,0.7,False,False
+static_070,50,can ya help me see u refund policy,check_refund_policy,check_refund_policy,real_api_prediction,0.1248,0.7,False,False
+static_070,51,"you are not helpful, can I speak with a person?",contact_human_agent,contact_human_agent,real_api_prediction,0.07037,0.7,False,False
+static_070,52,help me creating a freemium account,create_account,create_account,real_api_prediction,0.14065,0.7,False,False
+static_070,53,i cannot find the cancellation fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.08487,0.7,False,False
+static_070,54,correct information on standardaccount,edit_account,edit_account,real_api_prediction,0.10588,0.7,False,False
+static_070,55,i dont know what i need to do to make a claim,complaint,check_refund_policy,real_api_prediction,0.51779,0.7,False,False
+static_070,56,I do not know what I have to do to download invoice #00108,get_invoice,get_invoice,real_api_prediction,0.48298,0.7,False,False
+static_070,57,"I want to use the standard profile, how can I do it?",switch_account,set_up_shipping_address,real_api_prediction,0.24286,0.7,False,False
+static_070,58,could you help me see how soon can I expect my package?,delivery_period,track_order,real_api_prediction,0.40587,0.7,False,False
+static_070,59,want help retrieving the pwd of my user account,recover_password,recover_password,real_api_prediction,0.17307,0.7,False,False
+static_070,60,can you help me see the withdrawal charge?,check_cancellation_fee,check_refund_policy,real_api_prediction,0.31373,0.7,False,False
+static_070,61,I want assistance downloading the invoice from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.42084,0.7,False,False
+static_070,62,change information on {{Account Type}} account,edit_account,edit_account,real_api_prediction,0.30766,0.7,False,False
+static_070,63,I want to know about cancelling my newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.12736,0.7,False,False
+static_070,64,I want help to see aat what time I can call customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.25432,0.7,False,False
+static_070,65,i do not know what to do to edit the delivery address,change_shipping_address,change_shipping_address,real_api_prediction,0.48199,0.7,False,False
+static_070,66,"I have got to see when will my package arrive, I need help",delivery_period,track_order,real_api_prediction,0.19762,0.7,False,False
+static_070,67,problem with {{Account Type}} account terminations,delete_account,delete_account,real_api_prediction,0.35472,0.7,False,False
+static_070,68,I want help to cancel the company newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.2599,0.7,False,False
+static_070,69,I am calling to write a review about a service,review,review,real_api_prediction,0.32689,0.7,False,False
+static_070,70,"I need to cancel my damn newsletter subscription, help me",newsletter_subscription,newsletter_subscription,real_api_prediction,0.39596,0.7,False,False
+static_070,71,assistance seeing what shipping methods are there,delivery_options,delivery_options,real_api_prediction,0.09825,0.7,False,False
+static_070,72,need to talk to customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.3167,0.7,False,False
+static_070,73,what do I have to do to leave a review for a product?,review,review,real_api_prediction,0.42861,0.7,False,False
+static_070,74,i cant add some goddamn products to purchase {{Order Number}},change_order,place_order,real_api_prediction,0.27892,0.7,False,False
+static_070,75,i want assistance seeing when my shipment is gonna arrive,delivery_period,track_order,real_api_prediction,0.17028,0.7,False,False
+static_070,76,can I see what payment methods are available?,check_payment_methods,check_payment_methods,real_api_prediction,0.37607,0.7,False,False
+static_070,77,assistanec to notify of signup problems,registration_problems,registration_problems,real_api_prediction,0.28126,0.7,False,False
+static_070,78,I need assistance unsubscribing to your fucking newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.11431,0.7,False,False
+static_070,79,i cant enter a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.1964,0.7,False,False
+static_070,80,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,real_api_prediction,0.09255,0.7,False,False
+static_070,81,I have to inform of errors with online payments,payment_issue,payment_issue,real_api_prediction,0.17935,0.7,False,False
+static_070,82,I don't know how I can receive your newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.20019,0.7,False,False
+static_070,83,what do I have to do to shop several of your item?,place_order,place_order,real_api_prediction,0.36343,0.7,False,False
+static_070,84,idont know how i can recover my account access key,recover_password,recover_password,real_api_prediction,0.21555,0.7,False,False
+static_070,85,help me see when my order is going to arrive,delivery_period,track_order,real_api_prediction,0.26561,0.7,False,False
+static_070,86,open {{Account Type}} account,create_account,create_account,real_api_prediction,0.45756,0.7,False,False
+static_070,87,I want help to check the current status of the reimbursement,track_refund,track_refund,real_api_prediction,0.25383,0.7,False,False
+static_070,88,what do I have to do to change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.57077,0.7,False,False
+static_070,89,error setting up a shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.28565,0.7,False,False
+static_070,90,can ya help me seeing the terminatio penalties,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.34564,0.7,False,False
+static_070,91,how do I check at what time I can call customer support?,contact_customer_service,contact_customer_service,real_api_prediction,0.56526,0.7,False,False
+static_070,92,"I have to check the early exit charge, I need help",check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.46283,0.7,False,False
+static_070,93,i do not know what i need to do to modify the address,change_shipping_address,change_shipping_address,real_api_prediction,0.47704,0.7,False,False
+static_070,94,show me invoice #85632,check_invoice,get_invoice,real_api_prediction,0.08406,0.7,False,False
+static_070,95,need assistance reporting an error with a signup,registration_problems,registration_problems,real_api_prediction,0.49509,0.7,False,False
+static_070,96,could you help me cancel a gold account?,delete_account,delete_account,real_api_prediction,0.34605,0.7,False,False
+static_070,97,using {{Account Category}} account,switch_account,switch_account,real_api_prediction,0.2924,0.7,False,False
+static_070,98,can you show me what hours I can call customer service?,contact_customer_service,contact_customer_service,real_api_prediction,0.42221,0.7,False,False
+static_070,99,i have got to get bill #37777 how to do it,get_invoice,get_invoice,real_api_prediction,0.21602,0.7,False,False
+static_070,100,assistance to inform of problems with signup,registration_problems,registration_problems,real_api_prediction,0.3366,0.7,False,False
+static_070,101,I need help to check purchase {{Order Number}} current status,track_order,track_order,real_api_prediction,0.41657,0.7,False,False
+static_070,102,"I have got to acquire several items, I need help",place_order,place_order,real_api_prediction,0.64803,0.7,False,False
+static_070,103,can ya help me contactsomebody,contact_human_agent,contact_customer_service,real_api_prediction,0.48583,0.7,False,False
+static_070,104,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,real_api_prediction,0.2165,0.7,False,False
+static_070,105,can you help me get a restitution of my money?,get_refund,get_refund,real_api_prediction,0.36081,0.7,False,False
+static_070,106,how do I buy some articles?,place_order,place_order,real_api_prediction,0.30094,0.7,False,False
+static_070,107,how could I file a claim against your organization?,complaint,complaint,real_api_prediction,0.09023,0.7,False,False
+static_070,108,send me bill from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.40186,0.7,False,False
+static_070,109,"I want to enter the delivery address, how to do it?",set_up_shipping_address,set_up_shipping_address,real_api_prediction,0.34345,0.7,False,False
+static_070,110,"my experience with your work was bad, make a complaint",complaint,complaint,real_api_prediction,0.09249,0.7,False,False
+static_070,111,i can no longer afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.32389,0.7,False,False
+static_070,112,remove gold account,delete_account,delete_account,real_api_prediction,0.36442,0.7,False,False
+static_070,113,help to leave my goddamn feedback for your company,review,complaint,real_api_prediction,0.4883,0.7,False,False
+static_070,114,assistance to unsubscribe from your corporate newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.30206,0.7,False,False
+static_070,115,editing information on standard account,edit_account,edit_account,real_api_prediction,0.48892,0.7,False,False
+static_070,116,I need information about the termination of a pro account,delete_account,delete_account,real_api_prediction,0.31746,0.7,False,False
+static_070,117,I am trying to sign up to the company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.31652,0.7,False,False
+static_070,118,there are problems submitting a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.35711,0.7,False,False
+static_070,119,help to see the early exit  penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.41039,0.7,False,False
+static_070,120,"I need to unsubscribe from the newsletter, can yyou help me?",newsletter_subscription,newsletter_subscription,real_api_prediction,0.40671,0.7,False,False
+static_070,121,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,real_api_prediction,0.232,0.7,False,False
+static_070,122,where could I submit my shipping address?,set_up_shipping_address,change_shipping_address,real_api_prediction,0.4216,0.7,False,False
+static_070,123,I need help to download the invoice,get_invoice,get_invoice,real_api_prediction,0.29709,0.7,False,False
+static_070,124,I don't know what to do to contact customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.4956,0.7,False,False
+static_070,125,new {{Account Category}} acount for wife,create_account,create_account,real_api_prediction,0.29735,0.7,False,False
+static_070,126,need to track purchase {{Order Number}},track_order,track_order,real_api_prediction,0.40329,0.7,False,False
+static_070,127,want help sending feedback about a service,review,complaint,real_api_prediction,0.2186,0.7,False,False
+static_070,128,I'm trying to cancel purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.39681,0.7,False,False
+static_070,129,"I have  to locate my bill #00108, help me",check_invoice,get_invoice,real_api_prediction,0.19565,0.7,False,False
+static_070,130,I have troubles correcting my address,change_shipping_address,change_shipping_address,real_api_prediction,0.11224,0.7,False,False
+static_070,131,can I place an ordewr from {{Delivery Country}}?,delivery_options,place_order,real_api_prediction,0.08519,0.7,False,False
+static_070,132,i dont know how to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.33691,0.7,False,False
+static_070,133,i cant check ur moeny back guarantee,check_refund_policy,check_refund_policy,real_api_prediction,0.20772,0.7,False,False
+static_070,134,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.52149,0.7,False,False
+static_070,135,uhave a free number to get in touch with customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.18713,0.7,False,False
+static_070,136,I need help submitting my feedback for your company,review,contact_customer_service,real_api_prediction,0.48645,0.7,False,False
+static_070,137,I need help to notify of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.49178,0.7,False,False
+static_070,138,want assistance to check the cancellation charge,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.57252,0.7,False,False
+static_070,139,is it possible to speak with an agent,contact_human_agent,contact_human_agent,real_api_prediction,0.16054,0.7,False,False
+static_070,140,can I see order {{Order Number}} status?,track_order,track_order,real_api_prediction,0.30265,0.7,False,False
+static_070,141,"I do not have a {{Account Type}} account yet, I try to register",create_account,create_account,real_api_prediction,0.34386,0.7,False,False
+static_070,142,I have problems with cancelling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.34352,0.7,False,False
+static_070,143,help to inform of troubles with online payments,payment_issue,payment_issue,real_api_prediction,0.63646,0.7,False,False
+static_070,144,I have to notify of a sign-up error,registration_problems,registration_problems,real_api_prediction,0.27891,0.7,False,False
+static_070,145,i have to list the accepted payment methods,check_payment_methods,check_payment_methods,cache,0.87228,0.7,True,False
+static_070,146,problem with creatingmy {{Account Type}} account,create_account,create_account,real_api_prediction,0.59149,0.7,False,False
+static_070,147,i have got to buy a product can i get some help,place_order,place_order,real_api_prediction,0.43673,0.7,False,False
+static_070,148,"I have got to submit a new shipping address, I need help",set_up_shipping_address,change_shipping_address,real_api_prediction,0.33525,0.7,False,False
+static_070,149,I do not know what to do to speak with customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.4915,0.7,False,False
+static_070,150,I cannot check the current status of the rebate,track_refund,track_refund,real_api_prediction,0.63425,0.7,False,False
+static_070,151,I don't know what I need to do to download invoice #37777,get_invoice,get_invoice,real_api_prediction,0.5352,0.7,False,False
+static_070,152,help to check in what situations can I ask to be refunded,check_refund_policy,check_refund_policy,real_api_prediction,0.14591,0.7,False,False
+static_070,153,cancel the subscription to ur company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.51377,0.7,False,False
+static_070,154,i have got to set the new deliver address up how do i do it,set_up_shipping_address,change_shipping_address,real_api_prediction,0.29937,0.7,False,False
+static_070,155,I want assistance checking the early termination fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.18799,0.7,False,False
+static_070,156,wanna acquire some of ur article,place_order,place_order,real_api_prediction,0.55885,0.7,False,False
+static_070,157,can you help me to locate the invoice from {{Person Name}}?,check_invoice,get_invoice,real_api_prediction,0.49329,0.7,False,False
+static_070,158,"I have got to talk to customer service, how can I do it?",contact_customer_service,contact_customer_service,real_api_prediction,0.48969,0.7,False,False
+static_070,159,cancelin premium account,delete_account,cancel_order,real_api_prediction,0.37426,0.7,False,False
+static_070,160,i want assistance reporting an issue with a registration,registration_problems,registration_problems,real_api_prediction,0.42876,0.7,False,False
+static_070,161,help me see how soon can I expect the package,delivery_period,track_order,real_api_prediction,0.69861,0.7,False,False
+static_070,162,I want help seeing order {{Order Number}} current status,track_order,track_order,real_api_prediction,0.51685,0.7,False,False
+static_070,163,want assistance checking the early termination penalty,check_cancellation_fee,check_cancellation_fee,cache,0.78208,0.7,True,False
+static_070,164,i want help submitting a different delivery address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.23075,0.7,False,False
+static_070,165,trouble entering my new shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.51984,0.7,False,False
+static_070,166,I call to send some  feedback about a service,review,complaint,real_api_prediction,0.39983,0.7,False,False
+static_070,167,I don't know what I have to do to chat with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.57394,0.7,False,False
+static_070,168,help to check how soon can I expect my shipment,delivery_period,track_order,real_api_prediction,0.62034,0.7,False,False
+static_070,169,how can I reset my profile pass?,recover_password,recover_password,real_api_prediction,0.20717,0.7,False,False
+static_070,170,will you transfer to me somebody?,contact_human_agent,contact_human_agent,real_api_prediction,0.08717,0.7,False,False
+static_070,171,can ya help me inform of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.53299,0.7,False,False
+static_070,172,what do I have to do to close the {{Account Type}} account?,delete_account,delete_account,real_api_prediction,0.41176,0.7,False,False
+static_070,173,need assistance talking with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.35154,0.7,False,False
+static_070,174,want assistance leavingmy feedback for a service,review,review,real_api_prediction,0.18694,0.7,False,False
+static_070,175,can you help me to use the pro profile?,switch_account,contact_customer_service,real_api_prediction,0.3588,0.7,False,False
+static_070,176,error setting up my secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.68753,0.7,False,False
+static_070,177,I try to leave a review about your company,review,review,real_api_prediction,0.32817,0.7,False,False
+static_070,178,I'm extremely unsatisfied with ur wor i wanna lodge a claim,complaint,complaint,real_api_prediction,0.12739,0.7,False,False
+static_070,179,i need help seeingwhen will my package arrive,delivery_period,track_order,real_api_prediction,0.54915,0.7,False,False
+static_070,180,tell me more abou editing my address,change_shipping_address,change_shipping_address,real_api_prediction,0.17532,0.7,False,False
+static_070,181,can I use the {{Account Type}} profile?,switch_account,contact_customer_service,real_api_prediction,0.32276,0.7,False,False
+static_070,182,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,real_api_prediction,0.4864,0.7,False,False
+static_070,183,I have an issue setting the new delivery address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.26432,0.7,False,False
+static_070,184,i need assistance to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.67544,0.7,False,False
+static_070,185,check bill from {{Person Name}},check_invoice,check_invoice,real_api_prediction,0.62793,0.7,False,False
+static_070,186,need help editing m address,change_shipping_address,change_shipping_address,real_api_prediction,0.19041,0.7,False,False
+static_070,187,i need help canceling order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.6705,0.7,False,False
+static_070,188,I'm looking for information about thbe forgotten access key,recover_password,recover_password,real_api_prediction,0.20379,0.7,False,False
+static_070,189,I have got to notify of issues wit payments,payment_issue,payment_issue,real_api_prediction,0.27457,0.7,False,False
+static_070,190,I am trying to recover my user profile PIN,recover_password,recover_password,real_api_prediction,0.2838,0.7,False,False
+static_070,191,where can i check themethods for shipment,delivery_options,delivery_options,real_api_prediction,0.15811,0.7,False,False
+static_070,192,I can't speak iwth an operator,contact_human_agent,contact_human_agent,real_api_prediction,0.20027,0.7,False,False
+static_070,193,see bill from {{Person Name}},check_invoice,check_invoice,cache,0.71923,0.7,True,False
+static_070,194,i made an mistake could i modify order {{Order Number}},change_order,change_order,real_api_prediction,0.31662,0.7,False,False
+static_070,195,is there a way to send an opinion for ur products,review,review,real_api_prediction,0.20445,0.7,False,False
+static_070,196,need to see how soon can i expect the order could uhelp me,delivery_period,delivery_period,real_api_prediction,0.57219,0.7,False,False
+static_070,197,I need assistance to take a quick look at bill #85632,check_invoice,get_invoice,cache,0.72162,0.7,True,True
+static_070,198,I need help downloading the bills from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.49435,0.7,False,False
+static_070,199,wanna report troubles with onlpine payment,payment_issue,payment_issue,real_api_prediction,0.21205,0.7,False,False
+static_080,0,update purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,0.8,False,False
+static_080,1,where do I check the early exit fee?,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,0.8,False,False
+static_080,2,can you help me recover the key of my profile?,recover_password,recover_password,real_api_prediction,0.02082,0.8,False,False
+static_080,3,I want assistance to check the withdcrawal charge,check_cancellation_fee,check_refund_policy,real_api_prediction,0.14987,0.8,False,False
+static_080,4,"I have to contact customer assistance, can I get some help?",contact_customer_service,contact_customer_service,real_api_prediction,0.04581,0.8,False,False
+static_080,5,I want assistance doing a purchase,place_order,place_order,real_api_prediction,0.1779,0.8,False,False
+static_080,6,i want help to close my {{Account Category}} accouny,delete_account,delete_account,real_api_prediction,0.04717,0.8,False,False
+static_080,7,I don't know what I have to do to do a pucrhase,place_order,place_order,real_api_prediction,0.09331,0.8,False,False
+static_080,8,help to leave damn feedback for ru products,review,complaint,real_api_prediction,0.07267,0.8,False,False
+static_080,9,can I see your allowed payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.02534,0.8,False,False
+static_080,10,i do no know how to check how soon can i expect my item,delivery_period,delivery_period,real_api_prediction,0.09594,0.8,False,False
+static_080,11,where do I change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.21797,0.8,False,False
+static_080,12,update details on standard account,edit_account,edit_account,real_api_prediction,0.16786,0.8,False,False
+static_080,13,can I unsubscribe from the goddamn newsletter?,newsletter_subscription,newsletter_subscription,real_api_prediction,0.04602,0.8,False,False
+static_080,14,problems with a delivery address correction,change_shipping_address,change_shipping_address,real_api_prediction,0.0512,0.8,False,False
+static_080,15,do you have a method to send some feedback for a product ?,review,review,real_api_prediction,0.13841,0.8,False,False
+static_080,16,I do not know how to leave an opinion,review,review,real_api_prediction,0.23669,0.8,False,False
+static_080,17,is there an address to elave feedback about a product,review,contact_customer_service,real_api_prediction,0.09658,0.8,False,False
+static_080,18,I am calling to leave my feedback for your products,review,review,real_api_prediction,0.32602,0.8,False,False
+static_080,19,i need help canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.42267,0.8,False,False
+static_080,20,want assistance locating purchase {{Order Number}},track_order,track_order,real_api_prediction,0.39041,0.8,False,False
+static_080,21,i want assistance to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.22575,0.8,False,False
+static_080,22,what do i need to do to leave some feedback,review,review,real_api_prediction,0.28062,0.8,False,False
+static_080,23,need to submit some feedback for ur company help  me,review,complaint,real_api_prediction,0.26959,0.8,False,False
+static_080,24,what do I need to do to check the payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.49811,0.8,False,False
+static_080,25,I want help canceling the standard account,delete_account,cancel_order,real_api_prediction,0.29513,0.8,False,False
+static_080,26,I do not know what to do to lodge a consumer claim,complaint,complaint,real_api_prediction,0.33026,0.8,False,False
+static_080,27,modify purchase {{Order Number}},change_order,change_order,real_api_prediction,0.49677,0.8,False,False
+static_080,28,want assistance to notify of a problem with payment,payment_issue,payment_issue,real_api_prediction,0.25053,0.8,False,False
+static_080,29,give me information about the removal of a premium account,delete_account,delete_account,real_api_prediction,0.06605,0.8,False,False
+static_080,30,can uhelp me to delete an item from purchase {{Order Number}},change_order,cancel_order,real_api_prediction,0.26056,0.8,False,False
+static_080,31,want assistance to make a claim,complaint,get_refund,real_api_prediction,0.27067,0.8,False,False
+static_080,32,what do i need to do to report an issue with online payment,payment_issue,payment_issue,real_api_prediction,0.43577,0.8,False,False
+static_080,33,i needhelp to acquire several items,place_order,place_order,real_api_prediction,0.0212,0.8,False,False
+static_080,34,"I have to check what delivery methods I can choose, help me",delivery_options,delivery_options,real_api_prediction,0.19451,0.8,False,False
+static_080,35,I do not know how to cancel order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.46967,0.8,False,False
+static_080,36,set my new shipping address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.22684,0.8,False,False
+static_080,37,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,get_invoice,real_api_prediction,0.10898,0.8,False,False
+static_080,38,need assistance to take a quick look at the bill #12588,check_invoice,get_invoice,real_api_prediction,0.11018,0.8,False,False
+static_080,39,i have lost my bill from {{Person Name}} find it for me,check_invoice,check_invoice,real_api_prediction,0.2168,0.8,False,False
+static_080,40,where do I open a premium account?,create_account,create_account,real_api_prediction,0.25187,0.8,False,False
+static_080,41,I have got to demand fucking reimbursements,get_refund,complaint,real_api_prediction,0.05312,0.8,False,False
+static_080,42,help me call customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.1066,0.8,False,False
+static_080,43,i want assistance acquiring some of ur article,place_order,place_order,real_api_prediction,0.1584,0.8,False,False
+static_080,44,could you help me report an error with signup?,registration_problems,registration_problems,real_api_prediction,0.20377,0.8,False,False
+static_080,45,I cannotdelete some articles from purchase {{Order Number}},change_order,change_order,real_api_prediction,0.33085,0.8,False,False
+static_080,46,i lost the bill from {{Person Name}} will ya mail it to m,get_invoice,get_invoice,real_api_prediction,0.35003,0.8,False,False
+static_080,47,I need help with canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.73661,0.8,False,False
+static_080,48,swithcing to pro account,switch_account,switch_account,real_api_prediction,0.05936,0.8,False,False
+static_080,49,how can i contact customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.30167,0.8,False,False
+static_080,50,can ya help me see u refund policy,check_refund_policy,check_refund_policy,real_api_prediction,0.1248,0.8,False,False
+static_080,51,"you are not helpful, can I speak with a person?",contact_human_agent,contact_human_agent,real_api_prediction,0.07037,0.8,False,False
+static_080,52,help me creating a freemium account,create_account,create_account,real_api_prediction,0.14065,0.8,False,False
+static_080,53,i cannot find the cancellation fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.08487,0.8,False,False
+static_080,54,correct information on standardaccount,edit_account,edit_account,real_api_prediction,0.10588,0.8,False,False
+static_080,55,i dont know what i need to do to make a claim,complaint,check_refund_policy,real_api_prediction,0.51779,0.8,False,False
+static_080,56,I do not know what I have to do to download invoice #00108,get_invoice,get_invoice,real_api_prediction,0.48298,0.8,False,False
+static_080,57,"I want to use the standard profile, how can I do it?",switch_account,set_up_shipping_address,real_api_prediction,0.24286,0.8,False,False
+static_080,58,could you help me see how soon can I expect my package?,delivery_period,track_order,real_api_prediction,0.40587,0.8,False,False
+static_080,59,want help retrieving the pwd of my user account,recover_password,recover_password,real_api_prediction,0.17307,0.8,False,False
+static_080,60,can you help me see the withdrawal charge?,check_cancellation_fee,check_refund_policy,real_api_prediction,0.31373,0.8,False,False
+static_080,61,I want assistance downloading the invoice from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.42084,0.8,False,False
+static_080,62,change information on {{Account Type}} account,edit_account,edit_account,real_api_prediction,0.30766,0.8,False,False
+static_080,63,I want to know about cancelling my newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.12736,0.8,False,False
+static_080,64,I want help to see aat what time I can call customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.25432,0.8,False,False
+static_080,65,i do not know what to do to edit the delivery address,change_shipping_address,change_shipping_address,real_api_prediction,0.48199,0.8,False,False
+static_080,66,"I have got to see when will my package arrive, I need help",delivery_period,track_order,real_api_prediction,0.19762,0.8,False,False
+static_080,67,problem with {{Account Type}} account terminations,delete_account,delete_account,real_api_prediction,0.35472,0.8,False,False
+static_080,68,I want help to cancel the company newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.2599,0.8,False,False
+static_080,69,I am calling to write a review about a service,review,review,real_api_prediction,0.32689,0.8,False,False
+static_080,70,"I need to cancel my damn newsletter subscription, help me",newsletter_subscription,newsletter_subscription,real_api_prediction,0.39596,0.8,False,False
+static_080,71,assistance seeing what shipping methods are there,delivery_options,delivery_options,real_api_prediction,0.09825,0.8,False,False
+static_080,72,need to talk to customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.3167,0.8,False,False
+static_080,73,what do I have to do to leave a review for a product?,review,review,real_api_prediction,0.42861,0.8,False,False
+static_080,74,i cant add some goddamn products to purchase {{Order Number}},change_order,place_order,real_api_prediction,0.27892,0.8,False,False
+static_080,75,i want assistance seeing when my shipment is gonna arrive,delivery_period,track_order,real_api_prediction,0.17028,0.8,False,False
+static_080,76,can I see what payment methods are available?,check_payment_methods,check_payment_methods,real_api_prediction,0.37607,0.8,False,False
+static_080,77,assistanec to notify of signup problems,registration_problems,registration_problems,real_api_prediction,0.28126,0.8,False,False
+static_080,78,I need assistance unsubscribing to your fucking newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.11431,0.8,False,False
+static_080,79,i cant enter a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.1964,0.8,False,False
+static_080,80,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,real_api_prediction,0.09255,0.8,False,False
+static_080,81,I have to inform of errors with online payments,payment_issue,payment_issue,real_api_prediction,0.17935,0.8,False,False
+static_080,82,I don't know how I can receive your newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.20019,0.8,False,False
+static_080,83,what do I have to do to shop several of your item?,place_order,place_order,real_api_prediction,0.36343,0.8,False,False
+static_080,84,idont know how i can recover my account access key,recover_password,recover_password,real_api_prediction,0.21555,0.8,False,False
+static_080,85,help me see when my order is going to arrive,delivery_period,track_order,real_api_prediction,0.26561,0.8,False,False
+static_080,86,open {{Account Type}} account,create_account,create_account,real_api_prediction,0.45756,0.8,False,False
+static_080,87,I want help to check the current status of the reimbursement,track_refund,track_refund,real_api_prediction,0.25383,0.8,False,False
+static_080,88,what do I have to do to change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.57077,0.8,False,False
+static_080,89,error setting up a shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.28565,0.8,False,False
+static_080,90,can ya help me seeing the terminatio penalties,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.34564,0.8,False,False
+static_080,91,how do I check at what time I can call customer support?,contact_customer_service,contact_customer_service,real_api_prediction,0.56526,0.8,False,False
+static_080,92,"I have to check the early exit charge, I need help",check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.46283,0.8,False,False
+static_080,93,i do not know what i need to do to modify the address,change_shipping_address,change_shipping_address,real_api_prediction,0.47704,0.8,False,False
+static_080,94,show me invoice #85632,check_invoice,get_invoice,real_api_prediction,0.08406,0.8,False,False
+static_080,95,need assistance reporting an error with a signup,registration_problems,registration_problems,real_api_prediction,0.49509,0.8,False,False
+static_080,96,could you help me cancel a gold account?,delete_account,delete_account,real_api_prediction,0.34605,0.8,False,False
+static_080,97,using {{Account Category}} account,switch_account,switch_account,real_api_prediction,0.2924,0.8,False,False
+static_080,98,can you show me what hours I can call customer service?,contact_customer_service,contact_customer_service,real_api_prediction,0.42221,0.8,False,False
+static_080,99,i have got to get bill #37777 how to do it,get_invoice,get_invoice,real_api_prediction,0.21602,0.8,False,False
+static_080,100,assistance to inform of problems with signup,registration_problems,registration_problems,real_api_prediction,0.3366,0.8,False,False
+static_080,101,I need help to check purchase {{Order Number}} current status,track_order,track_order,real_api_prediction,0.41657,0.8,False,False
+static_080,102,"I have got to acquire several items, I need help",place_order,place_order,real_api_prediction,0.64803,0.8,False,False
+static_080,103,can ya help me contactsomebody,contact_human_agent,contact_customer_service,real_api_prediction,0.48583,0.8,False,False
+static_080,104,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,real_api_prediction,0.2165,0.8,False,False
+static_080,105,can you help me get a restitution of my money?,get_refund,get_refund,real_api_prediction,0.36081,0.8,False,False
+static_080,106,how do I buy some articles?,place_order,place_order,real_api_prediction,0.30094,0.8,False,False
+static_080,107,how could I file a claim against your organization?,complaint,complaint,real_api_prediction,0.09023,0.8,False,False
+static_080,108,send me bill from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.40186,0.8,False,False
+static_080,109,"I want to enter the delivery address, how to do it?",set_up_shipping_address,set_up_shipping_address,real_api_prediction,0.34345,0.8,False,False
+static_080,110,"my experience with your work was bad, make a complaint",complaint,complaint,real_api_prediction,0.09249,0.8,False,False
+static_080,111,i can no longer afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.32389,0.8,False,False
+static_080,112,remove gold account,delete_account,delete_account,real_api_prediction,0.36442,0.8,False,False
+static_080,113,help to leave my goddamn feedback for your company,review,complaint,real_api_prediction,0.4883,0.8,False,False
+static_080,114,assistance to unsubscribe from your corporate newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.30206,0.8,False,False
+static_080,115,editing information on standard account,edit_account,edit_account,real_api_prediction,0.48892,0.8,False,False
+static_080,116,I need information about the termination of a pro account,delete_account,delete_account,real_api_prediction,0.31746,0.8,False,False
+static_080,117,I am trying to sign up to the company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.31652,0.8,False,False
+static_080,118,there are problems submitting a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.35711,0.8,False,False
+static_080,119,help to see the early exit  penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.41039,0.8,False,False
+static_080,120,"I need to unsubscribe from the newsletter, can yyou help me?",newsletter_subscription,newsletter_subscription,real_api_prediction,0.40671,0.8,False,False
+static_080,121,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,real_api_prediction,0.232,0.8,False,False
+static_080,122,where could I submit my shipping address?,set_up_shipping_address,change_shipping_address,real_api_prediction,0.4216,0.8,False,False
+static_080,123,I need help to download the invoice,get_invoice,get_invoice,real_api_prediction,0.29709,0.8,False,False
+static_080,124,I don't know what to do to contact customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.4956,0.8,False,False
+static_080,125,new {{Account Category}} acount for wife,create_account,create_account,real_api_prediction,0.29735,0.8,False,False
+static_080,126,need to track purchase {{Order Number}},track_order,track_order,real_api_prediction,0.40329,0.8,False,False
+static_080,127,want help sending feedback about a service,review,complaint,real_api_prediction,0.2186,0.8,False,False
+static_080,128,I'm trying to cancel purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.39681,0.8,False,False
+static_080,129,"I have  to locate my bill #00108, help me",check_invoice,get_invoice,real_api_prediction,0.19565,0.8,False,False
+static_080,130,I have troubles correcting my address,change_shipping_address,change_shipping_address,real_api_prediction,0.11224,0.8,False,False
+static_080,131,can I place an ordewr from {{Delivery Country}}?,delivery_options,place_order,real_api_prediction,0.08519,0.8,False,False
+static_080,132,i dont know how to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.33691,0.8,False,False
+static_080,133,i cant check ur moeny back guarantee,check_refund_policy,check_refund_policy,real_api_prediction,0.20772,0.8,False,False
+static_080,134,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.52149,0.8,False,False
+static_080,135,uhave a free number to get in touch with customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.18713,0.8,False,False
+static_080,136,I need help submitting my feedback for your company,review,contact_customer_service,real_api_prediction,0.48645,0.8,False,False
+static_080,137,I need help to notify of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.49178,0.8,False,False
+static_080,138,want assistance to check the cancellation charge,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.57252,0.8,False,False
+static_080,139,is it possible to speak with an agent,contact_human_agent,contact_human_agent,real_api_prediction,0.16054,0.8,False,False
+static_080,140,can I see order {{Order Number}} status?,track_order,track_order,real_api_prediction,0.30265,0.8,False,False
+static_080,141,"I do not have a {{Account Type}} account yet, I try to register",create_account,create_account,real_api_prediction,0.34386,0.8,False,False
+static_080,142,I have problems with cancelling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.34352,0.8,False,False
+static_080,143,help to inform of troubles with online payments,payment_issue,payment_issue,real_api_prediction,0.63646,0.8,False,False
+static_080,144,I have to notify of a sign-up error,registration_problems,registration_problems,real_api_prediction,0.27891,0.8,False,False
+static_080,145,i have to list the accepted payment methods,check_payment_methods,check_payment_methods,cache,0.87228,0.8,True,False
+static_080,146,problem with creatingmy {{Account Type}} account,create_account,create_account,real_api_prediction,0.59149,0.8,False,False
+static_080,147,i have got to buy a product can i get some help,place_order,place_order,real_api_prediction,0.43673,0.8,False,False
+static_080,148,"I have got to submit a new shipping address, I need help",set_up_shipping_address,change_shipping_address,real_api_prediction,0.33525,0.8,False,False
+static_080,149,I do not know what to do to speak with customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.4915,0.8,False,False
+static_080,150,I cannot check the current status of the rebate,track_refund,track_refund,real_api_prediction,0.63425,0.8,False,False
+static_080,151,I don't know what I need to do to download invoice #37777,get_invoice,get_invoice,real_api_prediction,0.5352,0.8,False,False
+static_080,152,help to check in what situations can I ask to be refunded,check_refund_policy,check_refund_policy,real_api_prediction,0.14591,0.8,False,False
+static_080,153,cancel the subscription to ur company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.51377,0.8,False,False
+static_080,154,i have got to set the new deliver address up how do i do it,set_up_shipping_address,change_shipping_address,real_api_prediction,0.29937,0.8,False,False
+static_080,155,I want assistance checking the early termination fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.18799,0.8,False,False
+static_080,156,wanna acquire some of ur article,place_order,place_order,real_api_prediction,0.55885,0.8,False,False
+static_080,157,can you help me to locate the invoice from {{Person Name}}?,check_invoice,get_invoice,real_api_prediction,0.49329,0.8,False,False
+static_080,158,"I have got to talk to customer service, how can I do it?",contact_customer_service,contact_customer_service,real_api_prediction,0.48969,0.8,False,False
+static_080,159,cancelin premium account,delete_account,cancel_order,real_api_prediction,0.37426,0.8,False,False
+static_080,160,i want assistance reporting an issue with a registration,registration_problems,registration_problems,real_api_prediction,0.42876,0.8,False,False
+static_080,161,help me see how soon can I expect the package,delivery_period,track_order,real_api_prediction,0.69861,0.8,False,False
+static_080,162,I want help seeing order {{Order Number}} current status,track_order,track_order,real_api_prediction,0.51685,0.8,False,False
+static_080,163,want assistance checking the early termination penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.78208,0.8,False,False
+static_080,164,i want help submitting a different delivery address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.23075,0.8,False,False
+static_080,165,trouble entering my new shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.51984,0.8,False,False
+static_080,166,I call to send some  feedback about a service,review,complaint,real_api_prediction,0.39983,0.8,False,False
+static_080,167,I don't know what I have to do to chat with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.57394,0.8,False,False
+static_080,168,help to check how soon can I expect my shipment,delivery_period,track_order,real_api_prediction,0.62034,0.8,False,False
+static_080,169,how can I reset my profile pass?,recover_password,recover_password,real_api_prediction,0.20717,0.8,False,False
+static_080,170,will you transfer to me somebody?,contact_human_agent,contact_human_agent,real_api_prediction,0.08717,0.8,False,False
+static_080,171,can ya help me inform of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.53299,0.8,False,False
+static_080,172,what do I have to do to close the {{Account Type}} account?,delete_account,delete_account,real_api_prediction,0.41176,0.8,False,False
+static_080,173,need assistance talking with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.35154,0.8,False,False
+static_080,174,want assistance leavingmy feedback for a service,review,review,real_api_prediction,0.18694,0.8,False,False
+static_080,175,can you help me to use the pro profile?,switch_account,contact_customer_service,real_api_prediction,0.3588,0.8,False,False
+static_080,176,error setting up my secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.68753,0.8,False,False
+static_080,177,I try to leave a review about your company,review,review,real_api_prediction,0.32817,0.8,False,False
+static_080,178,I'm extremely unsatisfied with ur wor i wanna lodge a claim,complaint,complaint,real_api_prediction,0.12739,0.8,False,False
+static_080,179,i need help seeingwhen will my package arrive,delivery_period,track_order,real_api_prediction,0.54915,0.8,False,False
+static_080,180,tell me more abou editing my address,change_shipping_address,change_shipping_address,real_api_prediction,0.17532,0.8,False,False
+static_080,181,can I use the {{Account Type}} profile?,switch_account,contact_customer_service,real_api_prediction,0.32276,0.8,False,False
+static_080,182,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,real_api_prediction,0.4864,0.8,False,False
+static_080,183,I have an issue setting the new delivery address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.26432,0.8,False,False
+static_080,184,i need assistance to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.67544,0.8,False,False
+static_080,185,check bill from {{Person Name}},check_invoice,check_invoice,real_api_prediction,0.62793,0.8,False,False
+static_080,186,need help editing m address,change_shipping_address,change_shipping_address,real_api_prediction,0.19041,0.8,False,False
+static_080,187,i need help canceling order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.6705,0.8,False,False
+static_080,188,I'm looking for information about thbe forgotten access key,recover_password,recover_password,real_api_prediction,0.20379,0.8,False,False
+static_080,189,I have got to notify of issues wit payments,payment_issue,payment_issue,real_api_prediction,0.27457,0.8,False,False
+static_080,190,I am trying to recover my user profile PIN,recover_password,recover_password,real_api_prediction,0.2838,0.8,False,False
+static_080,191,where can i check themethods for shipment,delivery_options,delivery_options,real_api_prediction,0.15811,0.8,False,False
+static_080,192,I can't speak iwth an operator,contact_human_agent,contact_human_agent,real_api_prediction,0.20027,0.8,False,False
+static_080,193,see bill from {{Person Name}},check_invoice,get_invoice,real_api_prediction,0.71923,0.8,False,False
+static_080,194,i made an mistake could i modify order {{Order Number}},change_order,change_order,real_api_prediction,0.31662,0.8,False,False
+static_080,195,is there a way to send an opinion for ur products,review,review,real_api_prediction,0.20445,0.8,False,False
+static_080,196,need to see how soon can i expect the order could uhelp me,delivery_period,delivery_period,real_api_prediction,0.57219,0.8,False,False
+static_080,197,I need assistance to take a quick look at bill #85632,check_invoice,check_invoice,real_api_prediction,0.72162,0.8,False,False
+static_080,198,I need help downloading the bills from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.49435,0.8,False,False
+static_080,199,wanna report troubles with onlpine payment,payment_issue,payment_issue,real_api_prediction,0.21205,0.8,False,False
+adaptive_selectivity,0,update purchase {{Order Number}},change_order,change_order,real_api_prediction,0.0,0.8920000000000001,False,False
+adaptive_selectivity,1,where do I check the early exit fee?,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.0,0.93,False,False
+adaptive_selectivity,2,can you help me recover the key of my profile?,recover_password,recover_password,real_api_prediction,0.02082,0.8740000000000001,False,False
+adaptive_selectivity,3,I want assistance to check the withdcrawal charge,check_cancellation_fee,check_refund_policy,real_api_prediction,0.14987,0.93,False,False
+adaptive_selectivity,4,"I have to contact customer assistance, can I get some help?",contact_customer_service,contact_customer_service,real_api_prediction,0.04581,0.9140000000000001,False,False
+adaptive_selectivity,5,I want assistance doing a purchase,place_order,place_order,real_api_prediction,0.1779,0.8920000000000001,False,False
+adaptive_selectivity,6,i want help to close my {{Account Category}} accouny,delete_account,delete_account,real_api_prediction,0.04717,0.8740000000000001,False,False
+adaptive_selectivity,7,I don't know what I have to do to do a pucrhase,place_order,place_order,real_api_prediction,0.09331,0.8920000000000001,False,False
+adaptive_selectivity,8,help to leave damn feedback for ru products,review,complaint,real_api_prediction,0.07267,0.9060000000000001,False,False
+adaptive_selectivity,9,can I see your allowed payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.02534,0.9240000000000002,False,False
+adaptive_selectivity,10,i do no know how to check how soon can i expect my item,delivery_period,delivery_period,real_api_prediction,0.09594,0.9240000000000002,False,False
+adaptive_selectivity,11,where do I change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.21797,0.9100000000000001,False,False
+adaptive_selectivity,12,update details on standard account,edit_account,edit_account,real_api_prediction,0.16786,0.8740000000000001,False,False
+adaptive_selectivity,13,can I unsubscribe from the goddamn newsletter?,newsletter_subscription,newsletter_subscription,real_api_prediction,0.04602,0.93,False,False
+adaptive_selectivity,14,problems with a delivery address correction,change_shipping_address,change_shipping_address,real_api_prediction,0.0512,0.9100000000000001,False,False
+adaptive_selectivity,15,do you have a method to send some feedback for a product ?,review,review,real_api_prediction,0.13841,0.9060000000000001,False,False
+adaptive_selectivity,16,I do not know how to leave an opinion,review,review,real_api_prediction,0.23669,0.9060000000000001,False,False
+adaptive_selectivity,17,is there an address to elave feedback about a product,review,contact_customer_service,real_api_prediction,0.09658,0.9060000000000001,False,False
+adaptive_selectivity,18,I am calling to leave my feedback for your products,review,review,real_api_prediction,0.32602,0.9060000000000001,False,False
+adaptive_selectivity,19,i need help canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.42267,0.8920000000000001,False,False
+adaptive_selectivity,20,want assistance locating purchase {{Order Number}},track_order,track_order,real_api_prediction,0.39041,0.8920000000000001,False,False
+adaptive_selectivity,21,i want assistance to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.22575,0.9240000000000002,False,False
+adaptive_selectivity,22,what do i need to do to leave some feedback,review,review,real_api_prediction,0.28062,0.9060000000000001,False,False
+adaptive_selectivity,23,need to submit some feedback for ur company help  me,review,complaint,real_api_prediction,0.26959,0.9060000000000001,False,False
+adaptive_selectivity,24,what do I need to do to check the payment methods?,check_payment_methods,check_payment_methods,real_api_prediction,0.49811,0.9240000000000002,False,False
+adaptive_selectivity,25,I want help canceling the standard account,delete_account,cancel_order,real_api_prediction,0.29513,0.8740000000000001,False,False
+adaptive_selectivity,26,I do not know what to do to lodge a consumer claim,complaint,complaint,real_api_prediction,0.33026,0.9060000000000001,False,False
+adaptive_selectivity,27,modify purchase {{Order Number}},change_order,change_order,real_api_prediction,0.49677,0.8920000000000001,False,False
+adaptive_selectivity,28,want assistance to notify of a problem with payment,payment_issue,payment_issue,real_api_prediction,0.25053,0.9240000000000002,False,False
+adaptive_selectivity,29,give me information about the removal of a premium account,delete_account,delete_account,real_api_prediction,0.06605,0.8740000000000001,False,False
+adaptive_selectivity,30,can uhelp me to delete an item from purchase {{Order Number}},change_order,cancel_order,real_api_prediction,0.26056,0.8920000000000001,False,False
+adaptive_selectivity,31,want assistance to make a claim,complaint,get_refund,real_api_prediction,0.27067,0.9060000000000001,False,False
+adaptive_selectivity,32,what do i need to do to report an issue with online payment,payment_issue,payment_issue,real_api_prediction,0.43577,0.9240000000000002,False,False
+adaptive_selectivity,33,i needhelp to acquire several items,place_order,place_order,real_api_prediction,0.0212,0.8920000000000001,False,False
+adaptive_selectivity,34,"I have to check what delivery methods I can choose, help me",delivery_options,delivery_options,real_api_prediction,0.19451,0.9240000000000002,False,False
+adaptive_selectivity,35,I do not know how to cancel order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.46967,0.8920000000000001,False,False
+adaptive_selectivity,36,set my new shipping address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.22684,0.9100000000000001,False,False
+adaptive_selectivity,37,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,get_invoice,real_api_prediction,0.10898,0.9160000000000001,False,False
+adaptive_selectivity,38,need assistance to take a quick look at the bill #12588,check_invoice,get_invoice,real_api_prediction,0.11018,0.9160000000000001,False,False
+adaptive_selectivity,39,i have lost my bill from {{Person Name}} find it for me,check_invoice,check_invoice,real_api_prediction,0.2168,0.9160000000000001,False,False
+adaptive_selectivity,40,where do I open a premium account?,create_account,create_account,real_api_prediction,0.25187,0.8740000000000001,False,False
+adaptive_selectivity,41,I have got to demand fucking reimbursements,get_refund,complaint,real_api_prediction,0.05312,0.93,False,False
+adaptive_selectivity,42,help me call customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.1066,0.9140000000000001,False,False
+adaptive_selectivity,43,i want assistance acquiring some of ur article,place_order,place_order,real_api_prediction,0.1584,0.8920000000000001,False,False
+adaptive_selectivity,44,could you help me report an error with signup?,registration_problems,registration_problems,real_api_prediction,0.20377,0.8740000000000001,False,False
+adaptive_selectivity,45,I cannotdelete some articles from purchase {{Order Number}},change_order,change_order,real_api_prediction,0.33085,0.8920000000000001,False,False
+adaptive_selectivity,46,i lost the bill from {{Person Name}} will ya mail it to m,get_invoice,get_invoice,real_api_prediction,0.35003,0.9160000000000001,False,False
+adaptive_selectivity,47,I need help with canceling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.73661,0.8920000000000001,False,False
+adaptive_selectivity,48,swithcing to pro account,switch_account,switch_account,real_api_prediction,0.05936,0.8740000000000001,False,False
+adaptive_selectivity,49,how can i contact customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.30167,0.9140000000000001,False,False
+adaptive_selectivity,50,can ya help me see u refund policy,check_refund_policy,check_refund_policy,real_api_prediction,0.1248,0.93,False,False
+adaptive_selectivity,51,"you are not helpful, can I speak with a person?",contact_human_agent,contact_human_agent,real_api_prediction,0.07037,0.9140000000000001,False,False
+adaptive_selectivity,52,help me creating a freemium account,create_account,create_account,real_api_prediction,0.14065,0.8740000000000001,False,False
+adaptive_selectivity,53,i cannot find the cancellation fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.08487,0.93,False,False
+adaptive_selectivity,54,correct information on standardaccount,edit_account,edit_account,real_api_prediction,0.10588,0.8740000000000001,False,False
+adaptive_selectivity,55,i dont know what i need to do to make a claim,complaint,check_refund_policy,real_api_prediction,0.51779,0.9060000000000001,False,False
+adaptive_selectivity,56,I do not know what I have to do to download invoice #00108,get_invoice,get_invoice,real_api_prediction,0.48298,0.9160000000000001,False,False
+adaptive_selectivity,57,"I want to use the standard profile, how can I do it?",switch_account,set_up_shipping_address,real_api_prediction,0.24286,0.8740000000000001,False,False
+adaptive_selectivity,58,could you help me see how soon can I expect my package?,delivery_period,track_order,real_api_prediction,0.40587,0.9240000000000002,False,False
+adaptive_selectivity,59,want help retrieving the pwd of my user account,recover_password,recover_password,real_api_prediction,0.17307,0.8740000000000001,False,False
+adaptive_selectivity,60,can you help me see the withdrawal charge?,check_cancellation_fee,check_refund_policy,real_api_prediction,0.31373,0.93,False,False
+adaptive_selectivity,61,I want assistance downloading the invoice from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.42084,0.9160000000000001,False,False
+adaptive_selectivity,62,change information on {{Account Type}} account,edit_account,edit_account,real_api_prediction,0.30766,0.8740000000000001,False,False
+adaptive_selectivity,63,I want to know about cancelling my newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.12736,0.93,False,False
+adaptive_selectivity,64,I want help to see aat what time I can call customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.25432,0.9140000000000001,False,False
+adaptive_selectivity,65,i do not know what to do to edit the delivery address,change_shipping_address,change_shipping_address,real_api_prediction,0.48199,0.9100000000000001,False,False
+adaptive_selectivity,66,"I have got to see when will my package arrive, I need help",delivery_period,track_order,real_api_prediction,0.19762,0.9240000000000002,False,False
+adaptive_selectivity,67,problem with {{Account Type}} account terminations,delete_account,delete_account,real_api_prediction,0.35472,0.8740000000000001,False,False
+adaptive_selectivity,68,I want help to cancel the company newsletter subscription,newsletter_subscription,newsletter_subscription,real_api_prediction,0.2599,0.93,False,False
+adaptive_selectivity,69,I am calling to write a review about a service,review,review,real_api_prediction,0.32689,0.9060000000000001,False,False
+adaptive_selectivity,70,"I need to cancel my damn newsletter subscription, help me",newsletter_subscription,newsletter_subscription,real_api_prediction,0.39596,0.93,False,False
+adaptive_selectivity,71,assistance seeing what shipping methods are there,delivery_options,delivery_options,real_api_prediction,0.09825,0.9240000000000002,False,False
+adaptive_selectivity,72,need to talk to customer support,contact_customer_service,contact_customer_service,real_api_prediction,0.3167,0.9140000000000001,False,False
+adaptive_selectivity,73,what do I have to do to leave a review for a product?,review,review,real_api_prediction,0.42861,0.9060000000000001,False,False
+adaptive_selectivity,74,i cant add some goddamn products to purchase {{Order Number}},change_order,place_order,real_api_prediction,0.27892,0.8920000000000001,False,False
+adaptive_selectivity,75,i want assistance seeing when my shipment is gonna arrive,delivery_period,track_order,real_api_prediction,0.17028,0.9240000000000002,False,False
+adaptive_selectivity,76,can I see what payment methods are available?,check_payment_methods,check_payment_methods,real_api_prediction,0.37607,0.9240000000000002,False,False
+adaptive_selectivity,77,assistanec to notify of signup problems,registration_problems,registration_problems,real_api_prediction,0.28126,0.8740000000000001,False,False
+adaptive_selectivity,78,I need assistance unsubscribing to your fucking newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.11431,0.93,False,False
+adaptive_selectivity,79,i cant enter a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.1964,0.9100000000000001,False,False
+adaptive_selectivity,80,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",get_refund,get_refund,real_api_prediction,0.09255,0.93,False,False
+adaptive_selectivity,81,I have to inform of errors with online payments,payment_issue,payment_issue,real_api_prediction,0.17935,0.9240000000000002,False,False
+adaptive_selectivity,82,I don't know how I can receive your newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.20019,0.93,False,False
+adaptive_selectivity,83,what do I have to do to shop several of your item?,place_order,place_order,real_api_prediction,0.36343,0.8920000000000001,False,False
+adaptive_selectivity,84,idont know how i can recover my account access key,recover_password,recover_password,real_api_prediction,0.21555,0.8740000000000001,False,False
+adaptive_selectivity,85,help me see when my order is going to arrive,delivery_period,track_order,real_api_prediction,0.26561,0.9240000000000002,False,False
+adaptive_selectivity,86,open {{Account Type}} account,create_account,create_account,real_api_prediction,0.45756,0.8740000000000001,False,False
+adaptive_selectivity,87,I want help to check the current status of the reimbursement,track_refund,track_refund,real_api_prediction,0.25383,0.93,False,False
+adaptive_selectivity,88,what do I have to do to change my shipping address?,change_shipping_address,change_shipping_address,real_api_prediction,0.57077,0.9100000000000001,False,False
+adaptive_selectivity,89,error setting up a shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.28565,0.9100000000000001,False,False
+adaptive_selectivity,90,can ya help me seeing the terminatio penalties,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.34564,0.93,False,False
+adaptive_selectivity,91,how do I check at what time I can call customer support?,contact_customer_service,contact_customer_service,real_api_prediction,0.56526,0.9140000000000001,False,False
+adaptive_selectivity,92,"I have to check the early exit charge, I need help",check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.46283,0.93,False,False
+adaptive_selectivity,93,i do not know what i need to do to modify the address,change_shipping_address,change_shipping_address,real_api_prediction,0.47704,0.9100000000000001,False,False
+adaptive_selectivity,94,show me invoice #85632,check_invoice,get_invoice,real_api_prediction,0.08406,0.9160000000000001,False,False
+adaptive_selectivity,95,need assistance reporting an error with a signup,registration_problems,registration_problems,real_api_prediction,0.49509,0.8740000000000001,False,False
+adaptive_selectivity,96,could you help me cancel a gold account?,delete_account,delete_account,real_api_prediction,0.34605,0.8740000000000001,False,False
+adaptive_selectivity,97,using {{Account Category}} account,switch_account,switch_account,real_api_prediction,0.2924,0.8740000000000001,False,False
+adaptive_selectivity,98,can you show me what hours I can call customer service?,contact_customer_service,contact_customer_service,real_api_prediction,0.42221,0.9140000000000001,False,False
+adaptive_selectivity,99,i have got to get bill #37777 how to do it,get_invoice,get_invoice,real_api_prediction,0.21602,0.9160000000000001,False,False
+adaptive_selectivity,100,assistance to inform of problems with signup,registration_problems,registration_problems,real_api_prediction,0.3366,0.8740000000000001,False,False
+adaptive_selectivity,101,I need help to check purchase {{Order Number}} current status,track_order,track_order,real_api_prediction,0.41657,0.8920000000000001,False,False
+adaptive_selectivity,102,"I have got to acquire several items, I need help",place_order,place_order,real_api_prediction,0.64803,0.8920000000000001,False,False
+adaptive_selectivity,103,can ya help me contactsomebody,contact_human_agent,contact_customer_service,real_api_prediction,0.48583,0.9140000000000001,False,False
+adaptive_selectivity,104,where to see the bloody ETA of the order {{Order Number}},track_order,track_order,real_api_prediction,0.2165,0.8920000000000001,False,False
+adaptive_selectivity,105,can you help me get a restitution of my money?,get_refund,get_refund,real_api_prediction,0.36081,0.93,False,False
+adaptive_selectivity,106,how do I buy some articles?,place_order,place_order,real_api_prediction,0.30094,0.8920000000000001,False,False
+adaptive_selectivity,107,how could I file a claim against your organization?,complaint,complaint,real_api_prediction,0.09023,0.9060000000000001,False,False
+adaptive_selectivity,108,send me bill from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.40186,0.9160000000000001,False,False
+adaptive_selectivity,109,"I want to enter the delivery address, how to do it?",set_up_shipping_address,set_up_shipping_address,real_api_prediction,0.34345,0.9100000000000001,False,False
+adaptive_selectivity,110,"my experience with your work was bad, make a complaint",complaint,complaint,real_api_prediction,0.09249,0.9060000000000001,False,False
+adaptive_selectivity,111,i can no longer afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.32389,0.8920000000000001,False,False
+adaptive_selectivity,112,remove gold account,delete_account,delete_account,real_api_prediction,0.36442,0.8740000000000001,False,False
+adaptive_selectivity,113,help to leave my goddamn feedback for your company,review,complaint,real_api_prediction,0.4883,0.9060000000000001,False,False
+adaptive_selectivity,114,assistance to unsubscribe from your corporate newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.30206,0.93,False,False
+adaptive_selectivity,115,editing information on standard account,edit_account,edit_account,real_api_prediction,0.48892,0.8740000000000001,False,False
+adaptive_selectivity,116,I need information about the termination of a pro account,delete_account,delete_account,real_api_prediction,0.31746,0.8740000000000001,False,False
+adaptive_selectivity,117,I am trying to sign up to the company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.31652,0.93,False,False
+adaptive_selectivity,118,there are problems submitting a secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.35711,0.9100000000000001,False,False
+adaptive_selectivity,119,help to see the early exit  penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.41039,0.93,False,False
+adaptive_selectivity,120,"I need to unsubscribe from the newsletter, can yyou help me?",newsletter_subscription,newsletter_subscription,real_api_prediction,0.40671,0.93,False,False
+adaptive_selectivity,121,need assistance to check ur reimbursement policy,check_refund_policy,check_refund_policy,real_api_prediction,0.232,0.93,False,False
+adaptive_selectivity,122,where could I submit my shipping address?,set_up_shipping_address,change_shipping_address,real_api_prediction,0.4216,0.9100000000000001,False,False
+adaptive_selectivity,123,I need help to download the invoice,get_invoice,get_invoice,real_api_prediction,0.29709,0.9160000000000001,False,False
+adaptive_selectivity,124,I don't know what to do to contact customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.4956,0.9140000000000001,False,False
+adaptive_selectivity,125,new {{Account Category}} acount for wife,create_account,create_account,real_api_prediction,0.29735,0.8740000000000001,False,False
+adaptive_selectivity,126,need to track purchase {{Order Number}},track_order,track_order,real_api_prediction,0.40329,0.8920000000000001,False,False
+adaptive_selectivity,127,want help sending feedback about a service,review,complaint,real_api_prediction,0.2186,0.9060000000000001,False,False
+adaptive_selectivity,128,I'm trying to cancel purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.39681,0.8920000000000001,False,False
+adaptive_selectivity,129,"I have  to locate my bill #00108, help me",check_invoice,get_invoice,real_api_prediction,0.19565,0.9160000000000001,False,False
+adaptive_selectivity,130,I have troubles correcting my address,change_shipping_address,change_shipping_address,real_api_prediction,0.11224,0.9100000000000001,False,False
+adaptive_selectivity,131,can I place an ordewr from {{Delivery Country}}?,delivery_options,place_order,real_api_prediction,0.08519,0.9240000000000002,False,False
+adaptive_selectivity,132,i dont know how to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.33691,0.8740000000000001,False,False
+adaptive_selectivity,133,i cant check ur moeny back guarantee,check_refund_policy,check_refund_policy,real_api_prediction,0.20772,0.93,False,False
+adaptive_selectivity,134,I cannot afford purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.52149,0.8920000000000001,False,False
+adaptive_selectivity,135,uhave a free number to get in touch with customer assistance,contact_customer_service,contact_customer_service,real_api_prediction,0.18713,0.9140000000000001,False,False
+adaptive_selectivity,136,I need help submitting my feedback for your company,review,contact_customer_service,real_api_prediction,0.48645,0.9060000000000001,False,False
+adaptive_selectivity,137,I need help to notify of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.49178,0.9240000000000002,False,False
+adaptive_selectivity,138,want assistance to check the cancellation charge,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.57252,0.93,False,False
+adaptive_selectivity,139,is it possible to speak with an agent,contact_human_agent,contact_human_agent,real_api_prediction,0.16054,0.9140000000000001,False,False
+adaptive_selectivity,140,can I see order {{Order Number}} status?,track_order,track_order,real_api_prediction,0.30265,0.8920000000000001,False,False
+adaptive_selectivity,141,"I do not have a {{Account Type}} account yet, I try to register",create_account,create_account,real_api_prediction,0.34386,0.8740000000000001,False,False
+adaptive_selectivity,142,I have problems with cancelling purchase {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.34352,0.8920000000000001,False,False
+adaptive_selectivity,143,help to inform of troubles with online payments,payment_issue,payment_issue,real_api_prediction,0.63646,0.9240000000000002,False,False
+adaptive_selectivity,144,I have to notify of a sign-up error,registration_problems,registration_problems,real_api_prediction,0.27891,0.8740000000000001,False,False
+adaptive_selectivity,145,i have to list the accepted payment methods,check_payment_methods,check_payment_methods,real_api_prediction,0.87228,0.9240000000000002,False,False
+adaptive_selectivity,146,problem with creatingmy {{Account Type}} account,create_account,create_account,real_api_prediction,0.59149,0.8740000000000001,False,False
+adaptive_selectivity,147,i have got to buy a product can i get some help,place_order,place_order,real_api_prediction,0.43673,0.8920000000000001,False,False
+adaptive_selectivity,148,"I have got to submit a new shipping address, I need help",set_up_shipping_address,change_shipping_address,real_api_prediction,0.33525,0.9100000000000001,False,False
+adaptive_selectivity,149,I do not know what to do to speak with customer service,contact_customer_service,contact_customer_service,real_api_prediction,0.4915,0.9140000000000001,False,False
+adaptive_selectivity,150,I cannot check the current status of the rebate,track_refund,track_refund,real_api_prediction,0.63425,0.93,False,False
+adaptive_selectivity,151,I don't know what I need to do to download invoice #37777,get_invoice,get_invoice,real_api_prediction,0.5352,0.9160000000000001,False,False
+adaptive_selectivity,152,help to check in what situations can I ask to be refunded,check_refund_policy,check_refund_policy,real_api_prediction,0.14591,0.93,False,False
+adaptive_selectivity,153,cancel the subscription to ur company newsletter,newsletter_subscription,newsletter_subscription,real_api_prediction,0.51377,0.93,False,False
+adaptive_selectivity,154,i have got to set the new deliver address up how do i do it,set_up_shipping_address,change_shipping_address,real_api_prediction,0.29937,0.9100000000000001,False,False
+adaptive_selectivity,155,I want assistance checking the early termination fees,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.18799,0.93,False,False
+adaptive_selectivity,156,wanna acquire some of ur article,place_order,place_order,real_api_prediction,0.55885,0.8920000000000001,False,False
+adaptive_selectivity,157,can you help me to locate the invoice from {{Person Name}}?,check_invoice,get_invoice,real_api_prediction,0.49329,0.9160000000000001,False,False
+adaptive_selectivity,158,"I have got to talk to customer service, how can I do it?",contact_customer_service,contact_customer_service,real_api_prediction,0.48969,0.9140000000000001,False,False
+adaptive_selectivity,159,cancelin premium account,delete_account,cancel_order,real_api_prediction,0.37426,0.8740000000000001,False,False
+adaptive_selectivity,160,i want assistance reporting an issue with a registration,registration_problems,registration_problems,real_api_prediction,0.42876,0.8740000000000001,False,False
+adaptive_selectivity,161,help me see how soon can I expect the package,delivery_period,track_order,real_api_prediction,0.69861,0.9240000000000002,False,False
+adaptive_selectivity,162,I want help seeing order {{Order Number}} current status,track_order,track_order,real_api_prediction,0.51685,0.8920000000000001,False,False
+adaptive_selectivity,163,want assistance checking the early termination penalty,check_cancellation_fee,check_cancellation_fee,real_api_prediction,0.78208,0.93,False,False
+adaptive_selectivity,164,i want help submitting a different delivery address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.23075,0.9100000000000001,False,False
+adaptive_selectivity,165,trouble entering my new shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.51984,0.9100000000000001,False,False
+adaptive_selectivity,166,I call to send some  feedback about a service,review,complaint,real_api_prediction,0.39983,0.9060000000000001,False,False
+adaptive_selectivity,167,I don't know what I have to do to chat with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.57394,0.9140000000000001,False,False
+adaptive_selectivity,168,help to check how soon can I expect my shipment,delivery_period,track_order,real_api_prediction,0.62034,0.9240000000000002,False,False
+adaptive_selectivity,169,how can I reset my profile pass?,recover_password,recover_password,real_api_prediction,0.20717,0.8740000000000001,False,False
+adaptive_selectivity,170,will you transfer to me somebody?,contact_human_agent,contact_human_agent,real_api_prediction,0.08717,0.9140000000000001,False,False
+adaptive_selectivity,171,can ya help me inform of a trouble with payment,payment_issue,payment_issue,real_api_prediction,0.53299,0.9240000000000002,False,False
+adaptive_selectivity,172,what do I have to do to close the {{Account Type}} account?,delete_account,delete_account,real_api_prediction,0.41176,0.8740000000000001,False,False
+adaptive_selectivity,173,need assistance talking with an assistant,contact_human_agent,contact_human_agent,real_api_prediction,0.35154,0.9140000000000001,False,False
+adaptive_selectivity,174,want assistance leavingmy feedback for a service,review,review,real_api_prediction,0.18694,0.9060000000000001,False,False
+adaptive_selectivity,175,can you help me to use the pro profile?,switch_account,contact_customer_service,real_api_prediction,0.3588,0.8740000000000001,False,False
+adaptive_selectivity,176,error setting up my secondary shipping address,set_up_shipping_address,change_shipping_address,real_api_prediction,0.68753,0.9100000000000001,False,False
+adaptive_selectivity,177,I try to leave a review about your company,review,review,real_api_prediction,0.32817,0.9060000000000001,False,False
+adaptive_selectivity,178,I'm extremely unsatisfied with ur wor i wanna lodge a claim,complaint,complaint,real_api_prediction,0.12739,0.9060000000000001,False,False
+adaptive_selectivity,179,i need help seeingwhen will my package arrive,delivery_period,track_order,real_api_prediction,0.54915,0.9240000000000002,False,False
+adaptive_selectivity,180,tell me more abou editing my address,change_shipping_address,change_shipping_address,real_api_prediction,0.17532,0.9100000000000001,False,False
+adaptive_selectivity,181,can I use the {{Account Type}} profile?,switch_account,contact_customer_service,real_api_prediction,0.32276,0.8740000000000001,False,False
+adaptive_selectivity,182,i expect a rebate of {{Currency Symbol}}{{Refund Amount}},track_refund,get_refund,real_api_prediction,0.4864,0.93,False,False
+adaptive_selectivity,183,I have an issue setting the new delivery address up,set_up_shipping_address,change_shipping_address,real_api_prediction,0.26432,0.9100000000000001,False,False
+adaptive_selectivity,184,i need assistance to notify of a registration problem,registration_problems,registration_problems,real_api_prediction,0.67544,0.8740000000000001,False,False
+adaptive_selectivity,185,check bill from {{Person Name}},check_invoice,check_invoice,real_api_prediction,0.62793,0.9160000000000001,False,False
+adaptive_selectivity,186,need help editing m address,change_shipping_address,change_shipping_address,real_api_prediction,0.19041,0.9100000000000001,False,False
+adaptive_selectivity,187,i need help canceling order {{Order Number}},cancel_order,cancel_order,real_api_prediction,0.6705,0.8920000000000001,False,False
+adaptive_selectivity,188,I'm looking for information about thbe forgotten access key,recover_password,recover_password,real_api_prediction,0.20379,0.8740000000000001,False,False
+adaptive_selectivity,189,I have got to notify of issues wit payments,payment_issue,payment_issue,real_api_prediction,0.27457,0.9240000000000002,False,False
+adaptive_selectivity,190,I am trying to recover my user profile PIN,recover_password,recover_password,real_api_prediction,0.2838,0.8740000000000001,False,False
+adaptive_selectivity,191,where can i check themethods for shipment,delivery_options,delivery_options,real_api_prediction,0.15811,0.9240000000000002,False,False
+adaptive_selectivity,192,I can't speak iwth an operator,contact_human_agent,contact_human_agent,real_api_prediction,0.20027,0.9140000000000001,False,False
+adaptive_selectivity,193,see bill from {{Person Name}},check_invoice,get_invoice,real_api_prediction,0.71923,0.9160000000000001,False,False
+adaptive_selectivity,194,i made an mistake could i modify order {{Order Number}},change_order,change_order,real_api_prediction,0.31662,0.8920000000000001,False,False
+adaptive_selectivity,195,is there a way to send an opinion for ur products,review,review,real_api_prediction,0.20445,0.9060000000000001,False,False
+adaptive_selectivity,196,need to see how soon can i expect the order could uhelp me,delivery_period,delivery_period,real_api_prediction,0.57219,0.9240000000000002,False,False
+adaptive_selectivity,197,I need assistance to take a quick look at bill #85632,check_invoice,check_invoice,real_api_prediction,0.72162,0.9160000000000001,False,False
+adaptive_selectivity,198,I need help downloading the bills from {{Person Name}},get_invoice,get_invoice,real_api_prediction,0.49435,0.9160000000000001,False,False
+adaptive_selectivity,199,wanna report troubles with onlpine payment,payment_issue,payment_issue,real_api_prediction,0.21205,0.9240000000000002,False,False

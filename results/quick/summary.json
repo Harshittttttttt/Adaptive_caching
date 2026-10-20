@@ -1,0 +1,17 @@
+{
+  "dataset": "synthetic",
+  "rows": 1000,
+  "seeds": 3,
+  "queries_per_stream": 20,
+  "budgets": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "embedding": "TF-IDF + truncated SVD",
+  "label_source": "dataset oracle labels",
+  "real_llm_calls": 0,
+  "warning": "Offline simulation only; call counts are not measured API calls."
+}

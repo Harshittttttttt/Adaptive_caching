@@ -1,0 +1,6 @@
+policy,rows,oracle_calls,cache_hits,wrong_semantic_hits,accuracy,cache_hit_rate,wrong_hit_rate_among_hits
+no_cache,497,497,0,0,1.0,0.0,0.0
+exact_cache,497,497,0,0,1.0,0.0,0.0
+static_070,497,473,24,0,1.0,0.0483,0.0
+static_080,497,489,8,0,1.0,0.0161,0.0
+adaptive_selectivity,497,495,2,0,1.0,0.004,0.0

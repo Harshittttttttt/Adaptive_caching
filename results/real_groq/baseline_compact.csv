@@ -1,0 +1,11 @@
+row_id,ground_truth,prediction,raw_output,latency_seconds,prompt_tokens,completion_tokens,total_tokens,model,correct,error
+pos/cv998_14111.txt,0,0,positive,0.4183894000016153,625,19,644,openai/gpt-oss-20b,1,
+neg/cv922_10185.txt,1,1,negative,0.549062000005506,501,15,516,openai/gpt-oss-20b,1,
+pos/cv606_15985.txt,0,1,negative,0.482750799972564,631,41,672,openai/gpt-oss-20b,0,
+neg/cv033_25680.txt,1,1,negative,0.5004944000393152,623,15,638,openai/gpt-oss-20b,1,
+pos/cv701_14252.txt,0,1,negative,0.45145799999590963,616,26,642,openai/gpt-oss-20b,0,
+neg/cv895_22200.txt,1,1,negative,0.41084659995976835,517,15,532,openai/gpt-oss-20b,1,
+pos/cv699_7223.txt,0,1,negative,0.44814260001294315,625,15,640,openai/gpt-oss-20b,0,
+neg/cv507_9509.txt,1,1,negative,0.5439926999970339,651,15,666,openai/gpt-oss-20b,1,
+neg/cv776_21934.txt,1,1,negative,0.44862199999624863,671,15,686,openai/gpt-oss-20b,1,
+pos/cv471_16858.txt,0,0,positive,0.4550337999826297,405,30,435,openai/gpt-oss-20b,1,

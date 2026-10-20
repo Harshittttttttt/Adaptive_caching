@@ -1,0 +1,5 @@
+method,queries_replayed,counterfactual_api_calls,counterfactual_calls_saved,exact_hits,semantic_hits,wrong_semantic_hits,accuracy,static_threshold,density_low,density_high
+no_cache,20,20,0,0,0,0,0.7,,,
+exact_cache,20,10,10,10,0,0,0.7,,,
+static_semantic,20,10,10,10,0,0,0.7,0.85,,
+density_adaptive,20,10,10,10,0,0,0.7,,0.65,0.95

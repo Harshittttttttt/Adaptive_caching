@@ -1,0 +1,625 @@
+{
+  "generated_at_utc": "2026-10-20T16:48:30.486878+00:00",
+  "python_version": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2",
+    "python-dotenv": "1.2.3",
+    "pytest": "9.1.1"
+  },
+  "file_count": 58,
+  "files": [
+    {
+      "path": "results/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/bitext/benchmark_rows.csv",
+      "bytes": 359849,
+      "sha256": "9bc3808d6e902e233bbb8371a5c0c8fa3ec1b11c22206cc9fd3a5c0a015299bd",
+      "csv_rows": 2485,
+      "csv_columns": [
+        "row",
+        "policy",
+        "instruction",
+        "category",
+        "true_intent",
+        "predicted_intent",
+        "source",
+        "similarity",
+        "threshold",
+        "cache_hit",
+        "wrong_hit"
+      ]
+    },
+    {
+      "path": "results/bitext/benchmark_summary.csv",
+      "bytes": 305,
+      "sha256": "c5801c636da27fc7162ed41f316bb805fff1340bab213fbc671c53cb37a03bb4",
+      "csv_rows": 5,
+      "csv_columns": [
+        "policy",
+        "rows",
+        "oracle_calls",
+        "cache_hits",
+        "wrong_semantic_hits",
+        "accuracy",
+        "cache_hit_rate",
+        "wrong_hit_rate_among_hits"
+      ]
+    },
+    {
+      "path": "results/bitext_groq/baseline_200.csv",
+      "bytes": 32822,
+      "sha256": "712cd3b01e2b8c4002252987db6dbed0c3fba5f97551a8b0f66f20e4e2d66074",
+      "csv_rows": 200,
+      "csv_columns": [
+        "row_id",
+        "instruction",
+        "category",
+        "ground_truth",
+        "prediction",
+        "correct",
+        "raw_output",
+        "latency_seconds",
+        "prompt_tokens",
+        "completion_tokens",
+        "total_tokens",
+        "model",
+        "error"
+      ]
+    },
+    {
+      "path": "results/bitext_groq/cache_replay_rows.csv",
+      "bytes": 143759,
+      "sha256": "ccc287d29d2ce1d7a83c2da4562078cb3b06f548f2b23dd3d7817eb6a4e54f0b",
+      "csv_rows": 1000,
+      "csv_columns": [
+        "policy",
+        "row",
+        "instruction",
+        "ground_truth",
+        "prediction_used",
+        "source",
+        "similarity",
+        "threshold",
+        "cache_hit",
+        "wrong_cache_hit"
+      ]
+    },
+    {
+      "path": "results/bitext_groq/cache_replay_summary.csv",
+      "bytes": 340,
+      "sha256": "327cddfeb34ac1a6be0b55043c5901ff03dd695f1d9f230e3eccca52f63ef705",
+      "csv_rows": 5,
+      "csv_columns": [
+        "policy",
+        "queries",
+        "simulated_api_calls",
+        "calls_avoided",
+        "cache_hits",
+        "cache_hit_rate",
+        "wrong_cache_hits",
+        "overall_accuracy",
+        "accuracy_among_cache_hits"
+      ]
+    },
+    {
+      "path": "results/movie_reviews/analysis/analysis_metadata.json",
+      "bytes": 754,
+      "sha256": "bdc94b37daeef3a3848d27052261d0ac951c6e79b97980e593ce2c0e0dda6b0e"
+    },
+    {
+      "path": "results/movie_reviews/analysis/paired_vs_static.csv",
+      "bytes": 3619,
+      "sha256": "cf200d06e3ebf9c245b4b2609c42afd9f332630216b7834a88fcb1b501a03144",
+      "csv_rows": 20,
+      "csv_columns": [
+        "budget",
+        "method",
+        "paired_seeds",
+        "candidate_calls_mean",
+        "static_calls_mean",
+        "call_difference_mean",
+        "call_difference_ci95_low",
+        "call_difference_ci95_high",
+        "candidate_error_mean",
+        "static_error_mean",
+        "error_difference_mean",
+        "error_difference_ci95_low",
+        "error_difference_ci95_high",
+        "candidate_budget_violation_rate",
+        "static_budget_violation_rate",
+        "candidate_fewer_calls_seeds",
+        "candidate_equal_calls_seeds",
+        "candidate_more_calls_seeds"
+      ]
+    },
+    {
+      "path": "results/movie_reviews/analysis/summary_checked.csv",
+      "bytes": 3223,
+      "sha256": "95d2b5678c0baea88e22b7b345ae2cd013ee3b58bad41e947717f50ceb74ab27",
+      "csv_rows": 30,
+      "csv_columns": [
+        "budget",
+        "method",
+        "seeds",
+        "calls_mean",
+        "calls_sd",
+        "error_mean",
+        "error_sd",
+        "wrong_hits_mean",
+        "decisions_mean",
+        "semantic_hits_mean",
+        "exact_reuses_mean",
+        "test_budget_violation_rate"
+      ]
+    },
+    {
+      "path": "results/movie_reviews/pareto.csv",
+      "bytes": 3540,
+      "sha256": "e9834d656e5dd8b704c271ccc510e27bb33c2e32b7c43f20742fc2a18569e3ce",
+      "csv_rows": 23,
+      "csv_columns": [
+        "seed",
+        "budget",
+        "method",
+        "selected_method",
+        "fallback_used",
+        "params",
+        "tune_calls",
+        "tune_semantic_hits",
+        "tune_exact_reuses",
+        "tune_wrong_hits",
+        "tune_decisions",
+        "tune_wrong_hit_rate",
+        "calls",
+        "test_semantic_hits",
+        "test_exact_reuses",
+        "test_wrong_hits",
+        "test_decisions",
+        "wrong_hit_rate"
+      ]
+    },
+    {
+      "path": "results/movie_reviews/pareto.png",
+      "bytes": 83373,
+      "sha256": "e4e6d8fb08f10cd40cbc5b73685c3e63b5994d824a218798e0a78d3f82b72df5"
+    },
+    {
+      "path": "results/movie_reviews/runs.csv",
+      "bytes": 39523,
+      "sha256": "69f305f74590e1e32d2bcc4eb7e2a43fb7e6125b238bc5eb00ffce27c02f04eb",
+      "csv_rows": 300,
+      "csv_columns": [
+        "seed",
+        "budget",
+        "method",
+        "selected_method",
+        "fallback_used",
+        "params",
+        "tune_calls",
+        "tune_semantic_hits",
+        "tune_exact_reuses",
+        "tune_wrong_hits",
+        "tune_decisions",
+        "tune_wrong_hit_rate",
+        "test_calls",
+        "test_semantic_hits",
+        "test_exact_reuses",
+        "test_wrong_hits",
+        "test_decisions",
+        "test_wrong_hit_rate"
+      ]
+    },
+    {
+      "path": "results/movie_reviews/summary.csv",
+      "bytes": 2626,
+      "sha256": "b8de12655edc02d928a8f0b3c94f518e82ec6efe856d01a5d3d8b8dcd35ce6ca",
+      "csv_rows": 30,
+      "csv_columns": [
+        "budget",
+        "method",
+        "calls_mean",
+        "calls_std",
+        "wrong_hit_rate_mean",
+        "wrong_hit_rate_std",
+        "semantic_hits_mean",
+        "exact_reuses_mean"
+      ]
+    },
+    {
+      "path": "results/movie_reviews/summary.json",
+      "bytes": 367,
+      "sha256": "ec2e713abc22bb08c060621264942b3ec806803b37e6cdd36ebd036708ae61ba"
+    },
+    {
+      "path": "results/quick/pareto.csv",
+      "bytes": 1011,
+      "sha256": "5260d4a4176787246be2e3f3b2e9f15331040da17978ab0c5287e854334903a3",
+      "csv_rows": 10,
+      "csv_columns": [
+        "seed",
+        "budget",
+        "method",
+        "params",
+        "tune_calls",
+        "tune_semantic_hits",
+        "tune_exact_reuses",
+        "tune_wrong_hits",
+        "tune_decisions",
+        "tune_wrong_hit_rate",
+        "calls",
+        "test_semantic_hits",
+        "test_exact_reuses",
+        "test_wrong_hits",
+        "test_decisions",
+        "wrong_hit_rate"
+      ]
+    },
+    {
+      "path": "results/quick/pareto.png",
+      "bytes": 55128,
+      "sha256": "136dd8b8ce56eba4bd035cb32366b5be08c9d72a320279cf8bd7ca5d8c89908f"
+    },
+    {
+      "path": "results/quick/runs.csv",
+      "bytes": 8034,
+      "sha256": "ef4ae4dd78288bcc41e1731bb87f7a89fb37d61f0c0d06d4570eac99adadd349",
+      "csv_rows": 90,
+      "csv_columns": [
+        "seed",
+        "budget",
+        "method",
+        "params",
+        "tune_calls",
+        "tune_semantic_hits",
+        "tune_exact_reuses",
+        "tune_wrong_hits",
+        "tune_decisions",
+        "tune_wrong_hit_rate",
+        "test_calls",
+        "test_semantic_hits",
+        "test_exact_reuses",
+        "test_wrong_hits",
+        "test_decisions",
+        "test_wrong_hit_rate"
+      ]
+    },
+    {
+      "path": "results/quick/summary.csv",
+      "bytes": 2560,
+      "sha256": "741a6c732b3bfb379df1b6f6559a1e4eba44e65a8fca9b287d1ddd479b40830a",
+      "csv_rows": 30,
+      "csv_columns": [
+        "budget",
+        "method",
+        "calls_mean",
+        "calls_std",
+        "wrong_hit_rate_mean",
+        "wrong_hit_rate_std",
+        "semantic_hits_mean",
+        "exact_reuses_mean"
+      ]
+    },
+    {
+      "path": "results/quick/summary.json",
+      "bytes": 357,
+      "sha256": "585b151f029da493036499b38409ed0bf1cd274701fc47ea9437fe41346645de"
+    },
+    {
+      "path": "results/real_groq/baseline.csv",
+      "bytes": 1451,
+      "sha256": "b9224e4b859ef2ffb5ea5e368782512d37077ca5b1af4c8ae5b25219bce71621",
+      "csv_rows": 10,
+      "csv_columns": [
+        "row_id",
+        "ground_truth",
+        "prediction",
+        "raw_output",
+        "latency_seconds",
+        "prompt_tokens",
+        "completion_tokens",
+        "total_tokens",
+        "model",
+        "correct",
+        "error"
+      ]
+    },
+    {
+      "path": "results/real_groq/baseline_500.csv",
+      "bytes": 25056,
+      "sha256": "533932841db48c8255fdaed0b5e95d4a4a0f20a615c4f489f13b2f5e1f4755d5",
+      "csv_rows": 291,
+      "csv_columns": [
+        "row_id",
+        "ground_truth",
+        "prediction",
+        "raw_output",
+        "latency_seconds",
+        "prompt_tokens",
+        "completion_tokens",
+        "total_tokens",
+        "model",
+        "correct",
+        "error"
+      ]
+    },
+    {
+      "path": "results/real_groq/baseline_500_analysis/confusion_matrix.csv",
+      "bytes": 49,
+      "sha256": "abff83b72905c8133da7c7230aaf1ac6c781fec7edc6b6fa65aa4b45dbff06b6",
+      "csv_rows": 2,
+      "csv_columns": [
+        "Unnamed: 0",
+        "pred_0",
+        "pred_1"
+      ]
+    },
+    {
+      "path": "results/real_groq/baseline_500_analysis/metrics.json",
+      "bytes": 1521,
+      "sha256": "9fb68e56bcc64d935e12847d8081ed5f03f35a74b69efb53cbefaa07740ad727"
+    },
+    {
+      "path": "results/real_groq/baseline_500_analysis/summary.csv",
+      "bytes": 310,
+      "sha256": "7df5ef3b4a8ea9767ba60e6bafc5bfa3212afc6a77947a952ddc6880fef22604",
+      "csv_rows": 1,
+      "csv_columns": [
+        "source_file",
+        "model",
+        "total_records",
+        "valid_records",
+        "correct",
+        "incorrect",
+        "accuracy",
+        "class_0_f1",
+        "class_1_f1",
+        "macro_f1",
+        "mean_latency_seconds",
+        "total_tokens"
+      ]
+    },
+    {
+      "path": "results/real_groq/baseline_compact.csv",
+      "bytes": 984,
+      "sha256": "7ee7e974d4bca52f2dbdc1de05d28cf881c63413ddb3154c4ce18f569ffd418a",
+      "csv_rows": 10,
+      "csv_columns": [
+        "row_id",
+        "ground_truth",
+        "prediction",
+        "raw_output",
+        "latency_seconds",
+        "prompt_tokens",
+        "completion_tokens",
+        "total_tokens",
+        "model",
+        "correct",
+        "error"
+      ]
+    },
+    {
+      "path": "results/real_groq/cache_replay/decisions.csv",
+      "bytes": 6369,
+      "sha256": "5fff11616c4cb0e2176d04e4f888ea37b8a6ab4dbbcb8c8808e68e01ce5eb934",
+      "csv_rows": 80,
+      "csv_columns": [
+        "method",
+        "pass",
+        "row_id",
+        "ground_truth",
+        "prediction",
+        "correct",
+        "decision",
+        "source_row_id",
+        "similarity",
+        "threshold",
+        "density",
+        "counterfactual_api_call"
+      ]
+    },
+    {
+      "path": "results/real_groq/cache_replay/metadata.json",
+      "bytes": 726,
+      "sha256": "97009ac7ddc358910e2e813c5f1addb286c0c69b10432fb0ceb6dc1b4f1d4df6"
+    },
+    {
+      "path": "results/real_groq/cache_replay/summary.csv",
+      "bytes": 333,
+      "sha256": "2080f9884ef0432aecfabce2b3e75e26cf605460a982345694c164128c9df5fa",
+      "csv_rows": 4,
+      "csv_columns": [
+        "method",
+        "queries_replayed",
+        "counterfactual_api_calls",
+        "counterfactual_calls_saved",
+        "exact_hits",
+        "semantic_hits",
+        "wrong_semantic_hits",
+        "accuracy",
+        "static_threshold",
+        "density_low",
+        "density_high"
+      ]
+    },
+    {
+      "path": "results/real_nvidia/baseline.csv",
+      "bytes": 2625,
+      "sha256": "9fe75fe5e1a352c9d6346ea62a60d4c224c114926f47c5146f06f994f775de6f",
+      "csv_rows": 20,
+      "csv_columns": [
+        "row_id",
+        "ground_truth",
+        "prediction",
+        "raw_output",
+        "latency_seconds",
+        "prompt_tokens",
+        "completion_tokens",
+        "total_tokens",
+        "model",
+        "correct",
+        "error"
+      ]
+    },
+    {
+      "path": "data/bitext_sample_500.csv",
+      "bytes": 347833,
+      "sha256": "f48dbac689c09eaf0786b23638d6396e74340a5c26a15b0af8f004aaebfa1ac0",
+      "csv_rows": 500,
+      "csv_columns": [
+        "flags",
+        "instruction",
+        "category",
+        "intent",
+        "response"
+      ]
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 2196,
+      "sha256": "3c90f58afb9ce74f30acd4e51f46c491e3ae0da2a1ca06f5cf653d3315bfd783"
+    },
+    {
+      "path": "scripts/analyze_results.py",
+      "bytes": 8321,
+      "sha256": "35d4449eef2c74206dd42c212b90d754e4ba1b79af22d0581ffad0cb54c89c16"
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "bytes": 3717,
+      "sha256": "580b2de97f177d4d1bace616c7b728408f3f72b634a1feb285b1291f1017e07a"
+    },
+    {
+      "path": "scripts/resume_real_benchmark.py",
+      "bytes": 3885,
+      "sha256": "4fe1f0b70ba7730b0e32990269d6394afcdefbb995a9497566426bad9634257b"
+    },
+    {
+      "path": "scripts/run_benchmark.py",
+      "bytes": 710,
+      "sha256": "ec9fa3ca4b19816138ca6ccef1ca598334e5f116708cd6ef77023f62019ff6c7"
+    },
+    {
+      "path": "scripts/run_bitext_api.py",
+      "bytes": 5749,
+      "sha256": "ee855df0febbc8751e3f1d815d76a0290fce7f4a79774da7604d8abfb91aa704"
+    },
+    {
+      "path": "scripts/run_groq_cache_experiment.py",
+      "bytes": 8679,
+      "sha256": "00a3d022d1a56df01be2fd80814684d03f2dce6744f7e2b3898d1a8b9bd6827a"
+    },
+    {
+      "path": "scripts/run_real_benchmark.py",
+      "bytes": 5946,
+      "sha256": "2d9dc0e5c4e3e4740bad23a159a4325ae2bc2cd140c6e3d1ef1f1f8286edcd14"
+    },
+    {
+      "path": "scripts/summarize_live_baseline.py",
+      "bytes": 8213,
+      "sha256": "713dcea41074144e7d0dce2aa2eb42f034f1386a6645d69d44272b15b85d20a7"
+    },
+    {
+      "path": "src/adaptive_semantic_caching.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/adaptive_semantic_caching.egg-info/PKG-INFO",
+      "bytes": 429,
+      "sha256": "4dd2b7fed12488f9ebb9feabd40573c536a2a67efe88880bda423f46744e2369"
+    },
+    {
+      "path": "src/adaptive_semantic_caching.egg-info/requires.txt",
+      "bytes": 112,
+      "sha256": "9dad887ad3c79d5150dda1b3d543e2d392f3f1777210af11c7965b49e903d7a7"
+    },
+    {
+      "path": "src/adaptive_semantic_caching.egg-info/SOURCES.txt",
+      "bytes": 586,
+      "sha256": "8d3c1dc37b61a56ec54fdf5fe6efbf4134c4fc82fc6ab6f89857f001f73a204d"
+    },
+    {
+      "path": "src/adaptive_semantic_caching.egg-info/top_level.txt",
+      "bytes": 15,
+      "sha256": "d14d9a72da82861c0aa25fa627ed32de6f153d6c7216bfb184ea73a5e948234a"
+    },
+    {
+      "path": "src/semantic_cache/__init__.py",
+      "bytes": 72,
+      "sha256": "f471b99e7f4189e75cf906616917d376b0a474ef2b11c6fa3a735511e631f123"
+    },
+    {
+      "path": "src/semantic_cache/benchmark.py",
+      "bytes": 10421,
+      "sha256": "70a002b73dba5aa288959a16cc0b5634ab3f2c3222f1205110ec61037f5ca91e"
+    },
+    {
+      "path": "src/semantic_cache/cache.py",
+      "bytes": 1780,
+      "sha256": "dfb292cba4f6d779c3c9fae6073f971e9a41bf39b50cbd78bc97334abe976387"
+    },
+    {
+      "path": "src/semantic_cache/controllers.py",
+      "bytes": 413,
+      "sha256": "945007bc3c80e62ccc4c0b11e07186ee3aa8b750583fc3f3d8e80ea8c69763d3"
+    },
+    {
+      "path": "src/semantic_cache/datasets.py",
+      "bytes": 1950,
+      "sha256": "ae9b0b70a67e41f47087d3d1906e9a80dbcd7b3bc4268d4c55b3d12fee97c08e"
+    },
+    {
+      "path": "src/semantic_cache/embeddings.py",
+      "bytes": 652,
+      "sha256": "552bdf526dd487ada80655fdcb6c845c1340506a3a127f79eb8b793e674a2939"
+    },
+    {
+      "path": "src/semantic_cache/openrouter.py",
+      "bytes": 1566,
+      "sha256": "fe62e47e56bf9963f549fa90456060ad3f0286bc3b22b879fb907c8685bf5daf"
+    },
+    {
+      "path": "tests/test_analyze_results.py",
+      "bytes": 1836,
+      "sha256": "69a3acd4bb59dd852df0b699d1f89bfb00afd4a995dcaaf5eb1add5b26477547"
+    },
+    {
+      "path": "tests/test_cache.py",
+      "bytes": 942,
+      "sha256": "b53ec94ff99f757c1e9bc0690ec41119ac3fd386423ea313dbf0585397403370"
+    },
+    {
+      "path": "tests/test_controllers.py",
+      "bytes": 860,
+      "sha256": "ca301e81f617d18a200ef1c064bb7660ffae665ccbe2a2dd3548265a12148307"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 588,
+      "sha256": "fa3040500fe902106a2d10b2feee820f3fe07b2b192f5d7cb34021eda936c8b4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12217,
+      "sha256": "59b5ee37e5cdd7e24c8fd37f2ec1e6949d5c8b489471ed380486923381e9a529"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 311,
+      "sha256": "abf76b7086ac25dc14d2d4ce41432bfe3480710d6200541320b80f131a5b6e97"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 432,
+      "sha256": "5397305f65be095af3098851b28656dd91d67dc6a1efca2b82d6146064a5e8fd"
+    }
+  ]
+}

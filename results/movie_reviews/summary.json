@@ -1,0 +1,17 @@
+{
+  "dataset": "nltk_movie_reviews",
+  "rows": 2000,
+  "seeds": 10,
+  "queries_per_stream": 60,
+  "budgets": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "embedding": "TF-IDF + truncated SVD",
+  "label_source": "dataset oracle labels",
+  "real_llm_calls": 0,
+  "warning": "Offline simulation only; call counts are not measured API calls."
+}

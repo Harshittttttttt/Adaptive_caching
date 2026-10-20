@@ -1,0 +1,11 @@
+seed,budget,method,params,tune_calls,tune_semantic_hits,tune_exact_reuses,tune_wrong_hits,tune_decisions,tune_wrong_hit_rate,calls,test_semantic_hits,test_exact_reuses,test_wrong_hits,test_decisions,wrong_hit_rate
+0,0.02,static,"{""threshold"": 0.5}",7,3044,44,0,3051,0.0,7,4191,57,0,4198,0.0
+0,0.05,static,"{""threshold"": 0.5}",7,3044,44,0,3051,0.0,7,4191,57,0,4198,0.0
+0,0.1,static,"{""threshold"": 0.5}",7,3044,44,0,3051,0.0,7,4191,57,0,4198,0.0
+0,0.15,static,"{""threshold"": 0.5}",7,3044,44,0,3051,0.0,7,4191,57,0,4198,0.0
+0,0.2,static,"{""threshold"": 0.5}",7,3044,44,0,3051,0.0,7,4191,57,0,4198,0.0
+2,0.02,static,"{""threshold"": 0.5}",6,1699,20,0,1705,0.0,7,3524,49,0,3531,0.0
+2,0.05,static,"{""threshold"": 0.5}",6,1699,20,0,1705,0.0,7,3524,49,0,3531,0.0
+2,0.1,static,"{""threshold"": 0.5}",6,1699,20,0,1705,0.0,7,3524,49,0,3531,0.0
+2,0.15,static,"{""threshold"": 0.5}",6,1699,20,0,1705,0.0,7,3524,49,0,3531,0.0
+2,0.2,static,"{""threshold"": 0.5}",6,1699,20,0,1705,0.0,7,3524,49,0,3531,0.0

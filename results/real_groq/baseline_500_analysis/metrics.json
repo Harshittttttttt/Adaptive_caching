@@ -1,0 +1,59 @@
+{
+  "source_file": "results\\real_groq\\baseline_500.csv",
+  "model": "openai/gpt-oss-20b",
+  "total_records_in_file": 291,
+  "valid_predictions_analyzed": 291,
+  "correct_predictions": 248,
+  "incorrect_predictions": 43,
+  "accuracy": 0.852233676975945,
+  "accuracy_percent": 85.22,
+  "classification_metrics": {
+    "binary_class_1": {
+      "precision": 0.7722222222222223,
+      "recall": 0.9858156028368794,
+      "f1_score": 0.8660436137071651,
+      "support": 141
+    },
+    "binary_class_0": {
+      "precision": 0.9819819819819819,
+      "recall": 0.7266666666666667,
+      "f1_score": 0.8352490421455939,
+      "support": 150
+    },
+    "macro_avg": {
+      "precision": 0.8771021021021022,
+      "recall": 0.8562411347517731,
+      "f1_score": 0.8506463279263795
+    },
+    "weighted_avg": {
+      "precision": 0.880345809727253,
+      "recall": 0.852233676975945,
+      "f1_score": 0.8501701232115099
+    }
+  },
+  "confusion_matrix": [
+    [
+      109,
+      41
+    ],
+    [
+      2,
+      139
+    ]
+  ],
+  "latency": {
+    "count": 291,
+    "mean_seconds": 0.5491662852250478,
+    "std_seconds": 0.1722184827132078,
+    "median_seconds": 0.5528761000023223,
+    "min_seconds": 0.1686619999818503,
+    "max_seconds": 1.3883057999773882
+  },
+  "tokens": {
+    "prompt_tokens_sum": 178830,
+    "completion_tokens_sum": 6082,
+    "total_tokens_sum": 184912,
+    "mean_tokens_per_call": 635.4364261168384
+  },
+  "live_api_calls_made_during_analysis": 0
+}

@@ -1,0 +1,6 @@
+policy,queries,simulated_api_calls,calls_avoided,cache_hits,cache_hit_rate,wrong_cache_hits,overall_accuracy,accuracy_among_cache_hits
+no_cache,200,200,0,0,0.0,0,0.775,
+exact_cache,200,200,0,0,0.0,0,0.775,
+static_070,200,195,5,5,0.025,1,0.775,0.8
+static_080,200,199,1,1,0.005,0,0.775,1.0
+adaptive_selectivity,200,200,0,0,0.0,0,0.775,

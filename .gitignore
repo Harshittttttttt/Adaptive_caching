@@ -1,8 +1,28 @@
+# Virtual environments and dependencies
 .venv/
+env/
+venv/
+
+# Python caches and bytecode
 __pycache__/
 .pytest_cache/
 *.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Local configuration and secrets
 .env
-results/*
-!results/.gitkeep
+.env.*
+!.env.example
+
+# Operating system artifacts
 .DS_Store
+Thumbs.db
+
+# Backup runners
+scripts/run_real_benchmark_backup.py
+
+# Large datasets (sample under data/bitext_sample_500.csv is tracked)
+data/bitext_customer_support.csv
